@@ -1,0 +1,9 @@
+{
+  "initialPageDefectsDetected": 250,
+  "dynamicallyInsertedDefectsDetected": 50,
+  "duplicateProcessingCount": 0,
+  "missedMutationCount": 0,
+  "processingLoopOccurrences": 0,
+  "dynamicDetectionRate": 1,
+  "mutationObserverDebounceMs": 500
+}

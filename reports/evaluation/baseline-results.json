@@ -1,0 +1,26 @@
+{
+  "baselineA_UnremediatedControl": {
+    "detection": 0,
+    "quality": 0,
+    "unsafeProposals": 0,
+    "securityFailures": 0
+  },
+  "baselineB_DeterministicFallback": {
+    "detection": 250,
+    "quality": 0.65,
+    "unsafeProposals": 0,
+    "securityFailures": 0
+  },
+  "baselineC_UnconstrainedAISimulation": {
+    "detection": 250,
+    "quality": 0.92,
+    "unsafeProposals": 17,
+    "securityFailures": 17
+  },
+  "baselineD_FullPortalTransformer": {
+    "detection": 250,
+    "quality": 1,
+    "unsafeProposals": 0,
+    "securityFailures": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "trustportal-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TrustPortal / TSIF (Trusted Semantic Injection Framework) Monorepo",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=@trustportal/schemas && npm run build --workspace=@trustportal/rules && npm run build --workspace=@trustportal/redaction && npm run build --workspace=@trustportal/scoring && npm run build --workspace=@trustportal/eval && npm run build --workspace=@trustportal/api && npm run build --workspace=@trustportal/demo && npm run build --workspace=@trustportal/extension",
+    "test": "npm run test --workspaces",
+    "demo:portal-transformer": "npm run build --workspace=@trustportal/eval && node packages/eval/dist/demo_provider.js",
+    "evaluate:portal-transformer": "npm run build --workspace=@trustportal/eval && node packages/eval/dist/portal_transformer_eval.js",
+    "evaluate:portal-transformer-realworld": "npm run build --workspace=@trustportal/eval && node packages/eval/dist/realworld/realworld_evaluator.js",
+    "evaluate:portal-transformer-screen-reader": "npm run build --workspace=@trustportal/eval && node packages/eval/dist/screenreader/screen_reader_evaluator.js",
+    "evaluate:portal-transformer-security": "npm run build --workspace=@trustportal/eval && node packages/eval/dist/security_property_harness.js",
+    "evaluate:portal-transformer-security-holdout": "npm run build --workspace=@trustportal/eval && node packages/eval/dist/security_holdout_benchmark.js",
+    "evaluate:portal-transformer-fuzz": "npm run build --workspace=@trustportal/eval && node packages/eval/dist/security_fuzzer.js",
+    "evaluate:portal-transformer-dynamic-security": "npm run build --workspace=@trustportal/eval && node packages/eval/dist/dynamic_security_evaluator.js",
+    "evaluate:portal-transformer-upi": "npm run build --workspace=@trustportal/eval && node packages/eval/dist/upi_security_benchmark.js",
+    "audit:portal-transformer": "npm run build --workspace=@trustportal/eval && node packages/eval/dist/screen_reader_integrity_audit.js",
+    "audit:portal-transformer-security": "npm run build --workspace=@trustportal/eval && node packages/eval/dist/security_regression_gate.js",
+    "audit:portal-transformer-reproducibility": "npm run build --workspace=@trustportal/eval && node packages/eval/dist/reproducibility_checker.js",
+    "audit:portal-transformer-thesis": "npm run build --workspace=@trustportal/eval && node packages/eval/dist/thesis_consistency_audit.js",
+    "audit:portal-transformer-patch-capabilities": "npm run build --workspace=@trustportal/eval && node packages/eval/dist/patch_capability_audit.js",
+    "audit:portal-transformer-presentation": "npm run build --workspace=@trustportal/eval && node packages/eval/dist/final_presentation_audit.js",
+    "audit:portal-transformer-upi": "npm run build --workspace=@trustportal/eval && node packages/eval/dist/upi_integrity_auditor.js",
+    "audit:portal-transformer-upi-evidence": "npm run build --workspace=@trustportal/eval && node packages/eval/dist/upi_evidence_auditor.js",
+    "typecheck": "npm run build --workspace=@trustportal/schemas && npm run build --workspace=@trustportal/rules && npm run build --workspace=@trustportal/redaction && npm run build --workspace=@trustportal/scoring && npm run build --workspace=@trustportal/eval && tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

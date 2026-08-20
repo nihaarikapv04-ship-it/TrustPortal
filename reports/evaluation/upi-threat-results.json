@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-08-20T13:23:24.877Z",
+  "evaluatedCategoriesCount": 20,
+  "attackVectorBreakdown": {
+    "transactionMutationAttacks": 500,
+    "promptInjections": 100,
+    "navigationAttacks": 100,
+    "credentialAttacks": 100,
+    "toctouRaces": 100,
+    "ambiguousCases": 100
+  },
+  "allVectorsBlocked": true
+}

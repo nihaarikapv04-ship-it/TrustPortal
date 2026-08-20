@@ -1,0 +1,69 @@
+{
+  "providerType": "LOCAL DETERMINISTIC MOCK PROVIDER INFRASTRUCTURE",
+  "externalCloudProviderLatency": "NOT YET EVALUATED (Requires live vision/LLM network API connection)",
+  "sampleSize": 1000,
+  "warmUpRuns": 10,
+  "domDetectionMs": {
+    "mean": 0.001,
+    "median": 0,
+    "stdDev": 0.001,
+    "p95": 0.001,
+    "p99": 0.003
+  },
+  "privacyFilteringMs": {
+    "mean": 0.004,
+    "median": 0.002,
+    "stdDev": 0.029,
+    "p95": 0.005,
+    "p99": 0.015
+  },
+  "contextExtractionMs": {
+    "mean": 0,
+    "median": 0,
+    "stdDev": 0,
+    "p95": 0,
+    "p99": 0
+  },
+  "aiProviderStageMs": {
+    "mean": 0,
+    "median": 0,
+    "stdDev": 0,
+    "p95": 0,
+    "p99": 0
+  },
+  "outputValidationMs": {
+    "mean": 0,
+    "median": 0,
+    "stdDev": 0.003,
+    "p95": 0,
+    "p99": 0.001
+  },
+  "riskEvaluationMs": {
+    "mean": 0.002,
+    "median": 0.001,
+    "stdDev": 0.006,
+    "p95": 0.003,
+    "p99": 0.011
+  },
+  "toctouVerificationMs": {
+    "mean": 0,
+    "median": 0,
+    "stdDev": 0,
+    "p95": 0,
+    "p99": 0
+  },
+  "patchApplicationMs": {
+    "mean": 0,
+    "median": 0,
+    "stdDev": 0,
+    "p95": 0,
+    "p99": 0
+  },
+  "totalRemediationMs": {
+    "mean": 0.006,
+    "median": 0.004,
+    "stdDev": 0.038,
+    "p95": 0.011,
+    "p99": 0.03
+  }
+}

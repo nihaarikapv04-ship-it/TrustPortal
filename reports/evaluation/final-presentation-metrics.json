@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-08-20T13:05:00.000Z",
+  "presentationMetrics": [
+    { "dataset": "Benchmark-v4", "metric": "Precision", "value": "100.0%", "scope": "Synthetic (N=930)", "status": "VERIFIED" },
+    { "dataset": "Benchmark-v4", "metric": "Recall", "value": "100.0%", "scope": "Synthetic (N=930)", "status": "VERIFIED" },
+    { "dataset": "Holdout-SVG-V3", "metric": "Precision", "value": "100.0%", "scope": "Holdout SVG (N=600)", "status": "VERIFIED" },
+    { "dataset": "Holdout-SVG-V3", "metric": "Recall", "value": "53.85%", "scope": "Holdout SVG (N=600)", "status": "VERIFIED" },
+    { "dataset": "Holdout-SVG-V3", "metric": "Abstention", "value": "33.33%", "scope": "Holdout SVG (N=600)", "status": "VERIFIED" },
+    { "dataset": "Real-World-Gov-In", "metric": "Precision", "value": "100.0%", "scope": "Reviewed Sample (N=100)", "status": "VERIFIED" },
+    { "dataset": "Real-World-Gov-In", "metric": "Recall", "value": "77.78%", "scope": "Reviewed Sample (N=100)", "status": "VERIFIED" },
+    { "dataset": "Real-World-Gov-In", "metric": "Abstention", "value": "10.0%", "scope": "Reviewed Sample (N=100)", "status": "VERIFIED" },
+    { "dataset": "Security-Property-Suite", "metric": "AttackSuccessRate", "value": "0.0%", "scope": "Property Suite (N=1,000)", "status": "VERIFIED" },
+    { "dataset": "Security-Holdout-Suite", "metric": "BlockedCount", "value": "500/500", "scope": "Security Holdout (N=500)", "status": "VERIFIED" },
+    { "dataset": "Security-Fuzz-Suite", "metric": "Violations", "value": "0", "scope": "Deterministic Fuzzing (N=5,000)", "status": "VERIFIED" },
+    { "dataset": "Reproducibility-Audit", "metric": "Classification", "value": "DETERMINISTIC", "scope": "3 Independent Runs", "status": "VERIFIED" }
+  ]
+}

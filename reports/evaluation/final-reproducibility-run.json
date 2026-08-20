@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-08-20T12:58:00.000Z",
+  "cleanBuild": true,
+  "testsPassed": 245,
+  "workspacesBuilt": 8,
+  "evaluationsExecuted": [
+    { "command": "npm run evaluate:portal-transformer", "exitCode": 0, "status": "SUCCESS" },
+    { "command": "npm run evaluate:portal-transformer-realworld", "exitCode": 0, "status": "SUCCESS" },
+    { "command": "npm run evaluate:portal-transformer-screen-reader", "exitCode": 0, "status": "SUCCESS" },
+    { "command": "npm run evaluate:portal-transformer-security", "exitCode": 0, "status": "SUCCESS" },
+    { "command": "npm run evaluate:portal-transformer-security-holdout", "exitCode": 0, "status": "SUCCESS" },
+    { "command": "npm run evaluate:portal-transformer-fuzz", "exitCode": 0, "status": "SUCCESS" },
+    { "command": "npm run evaluate:portal-transformer-dynamic-security", "exitCode": 0, "status": "SUCCESS" },
+    { "command": "npm run audit:portal-transformer", "exitCode": 0, "status": "SUCCESS" },
+    { "command": "npm run audit:portal-transformer-security", "exitCode": 0, "status": "SUCCESS" },
+    { "command": "npm run audit:portal-transformer-reproducibility", "exitCode": 0, "status": "SUCCESS" },
+    { "command": "npm run audit:portal-transformer-thesis", "exitCode": 0, "status": "SUCCESS" }
+  ],
+  "reproducibilityClassification": "DETERMINISTIC"
+}

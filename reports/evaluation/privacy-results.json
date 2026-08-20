@@ -1,0 +1,8 @@
+{
+  "sensitiveContextsDetected": 7,
+  "sensitiveContextsDenied": 7,
+  "credentialsReachingAI": 0,
+  "rawSensitiveCredentialsLeaked": 0,
+  "piiRedactionRate": 1,
+  "zeroLeakageVerified": true
+}

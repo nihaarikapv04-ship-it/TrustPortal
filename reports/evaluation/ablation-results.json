@@ -1,0 +1,32 @@
+{
+  "noPrivacyFirewall": {
+    "credentialExposure": "100% Exposed to AI",
+    "decisionChanges": 35,
+    "unsafeMutationCount": 0
+  },
+  "noOutputValidator": {
+    "scriptInjectionRisk": "High (XSS Allowed)",
+    "decisionChanges": 22,
+    "unsafeMutationCount": 17
+  },
+  "noAttributeAllowlist": {
+    "navigationMutationRisk": "High (href/action mutated)",
+    "decisionChanges": 17,
+    "unsafeMutationCount": 17
+  },
+  "noRiskGate": {
+    "unsafeAutoApplyCount": 17,
+    "decisionChanges": 50,
+    "unsafeMutationCount": 17
+  },
+  "noTOCTOUProtection": {
+    "staleTargetAcceptanceRate": "100% Stale Target Collisions",
+    "decisionChanges": 10,
+    "unsafeMutationCount": 10
+  },
+  "noDOMClobberingDefense": {
+    "domClobberingVulnerability": "Global Scope Hijacked",
+    "decisionChanges": 8,
+    "unsafeMutationCount": 8
+  }
+}

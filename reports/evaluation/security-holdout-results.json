@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-08-20T12:56:52.508Z",
+  "sampleSize": 500,
+  "totalBlocked": 500,
+  "totalSucceeded": 0,
+  "totalUnsafeMutations": 0,
+  "totalCredentialLeaks": 0,
+  "attackSuccessRate": 0,
+  "unsafeMutationRate": 0,
+  "categoryCount": 5
+}

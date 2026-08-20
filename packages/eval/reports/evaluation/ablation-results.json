@@ -1,0 +1,27 @@
+{
+  "benchmarkVersion": "tsif-eval-v1.0.0",
+  "timestamp": "2026-08-19T02:01:32.258Z",
+  "environment": "Local Monorepo Test Harness (macOS Darwin)",
+  "ablations": {
+    "fullPipeline": {
+      "autoCount": 0,
+      "confirmCount": 5,
+      "rejectCount": 0
+    },
+    "noEvidenceAgreement": {
+      "autoCount": 0,
+      "confirmCount": 5,
+      "rejectCount": 0
+    },
+    "noPrivacyFirewall": {
+      "autoCount": 0,
+      "confirmCount": 5,
+      "rejectCount": 0
+    },
+    "rawConfidenceOnly": {
+      "autoCount": 0,
+      "confirmCount": 5,
+      "rejectCount": 0
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"proposal_service.d.ts","sourceRoot":"","sources":["proposal_service.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,gBAAgB,EAAiB,MAAM,sBAAsB,CAAC;AAMxF,qBAAa,eAAe;IAC1B;;;;OAIG;IACU,eAAe,CAAC,OAAO,EAAE,eAAe,GAAG,OAAO,CAAC,gBAAgB,CAAC;CA8FlF;AAED,eAAO,MAAM,eAAe,iBAAwB,CAAC"}

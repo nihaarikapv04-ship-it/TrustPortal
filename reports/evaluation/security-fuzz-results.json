@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-08-20T12:56:53.031Z",
+  "casesFuzzed": 5000,
+  "seed": "0x41434345",
+  "uniqueFailingProperties": 0,
+  "totalViolations": 0,
+  "unsafeMutations": 0,
+  "fuzzingSuccessRate": 1,
+  "safetyInvariantsPreserved": true
+}

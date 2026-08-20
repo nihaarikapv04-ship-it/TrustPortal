@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrustPortal TSIF Step 4 Test Harness & Patch Demo</title>
+  <style>
+    body { font-family: system-ui, sans-serif; padding: 20px; background: #0f172a; color: #f8fafc; }
+    .card { background: #1e293b; padding: 20px; border-radius: 8px; max-width: 650px; margin-bottom: 16px; border: 1px solid #334155; }
+    .status { padding: 8px 12px; background: #22c55e22; color: #22c55e; border-radius: 4px; display: inline-block; font-weight: bold; font-size: 13px; }
+    .demo-btn { padding: 8px 14px; background: #3b82f6; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; margin-right: 8px; }
+    .demo-btn-danger { background: #ef4444; }
+    .demo-btn-secondary { background: #64748b; }
+    .output-box { background: #090d16; border: 1px solid #334155; padding: 12px; border-radius: 6px; font-family: monospace; font-size: 12px; color: #38bdf8; white-space: pre-wrap; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🛡️ TrustPortal Step 4: Reversible Patch System Demo</h1>
+    <p>Test fixture demonstrating deterministic patch application, attribute allowlisting, reversibility, and conflict handling.</p>
+    
+    <div style="margin: 16px 0; padding: 12px; background: #111827; border-radius: 6px;">
+      <label style="font-size: 12px; color: #9ca3af;">Target Defective Element:</label><br>
+      <button id="target-demo-btn" style="padding: 10px; margin-top: 6px;">⬇️</button>
+      <span id="target-dom-state" style="font-size: 12px; color: #fbbf24; margin-left: 10px;">DOM: aria-label="null"</span>
+    </div>
+
+    <div>
+      <button id="btn-apply" class="demo-btn">1. Apply Safe Patch (aria-label)</button>
+      <button id="btn-revert" class="demo-btn demo-btn-secondary">2. Revert Patch</button>
+      <button id="btn-unsafe" class="demo-btn demo-btn-danger">3. Attempt Unsafe Patch (href)</button>
+      <button id="btn-conflict" class="demo-btn demo-btn-secondary">4. Simulate Conflict Mutation</button>
+    </div>
+
+    <div id="demo-log" class="output-box">Ready for Step 4 interactive demo actions.</div>
+  </div>
+
+  <script type="module">
+    import { PatchApplicator } from "./src/patches/patch_applicator.ts";
+    import { patchLedger } from "./src/patches/patch_ledger.ts";
+
+    const applicator = new PatchApplicator();
+    const demoBtn = document.getElementById("target-demo-btn");
+    const domStateText = document.getElementById("target-dom-state");
+    const logBox = document.getElementById("demo-log");
+
+    const samplePatch = {
+      patchId: "p_demo_101",
+      issueType: "button-name",
+      targetFingerprint: "",
+      attribute: "aria-label",
+      previousValue: null,
+      proposedValue: "Download Application Form",
+      evidence: [{ source: "visible_text", quote: "Download" }],
+      trustScore: 94,
+      decision: "auto"
+    };
+
+    function updateDOMText() {
+      const val = demoBtn.getAttribute("aria-label");
+      domStateText.textContent = `DOM aria-label: ${val ? '"' + val + '"' : "null"}`;
+    }
+
+    document.getElementById("btn-apply").onclick = () => {
+      const res = applicator.applyPatch(samplePatch, demoBtn);
+      updateDOMText();
+      logBox.textContent = `[APPLY RESULT]\nSuccess: ${res.success}\nStatus: ${res.status}\nLedger State:\n` + JSON.stringify(patchLedger.getEntry(samplePatch.patchId), null, 2);
+    };
+
+    document.getElementById("btn-revert").onclick = () => {
+      const res = applicator.revertPatch(samplePatch.patchId, demoBtn);
+      updateDOMText();
+      logBox.textContent = `[REVERT RESULT]\nSuccess: ${res.success}\nStatus/Reason: ${res.status || res.reason}\nDetails: ${res.details || "Clean Reversal"}`;
+    };
+
+    document.getElementById("btn-unsafe").onclick = () => {
+      const unsafePatch = { ...samplePatch, patchId: "p_unsafe_href", attribute: "href", proposedValue: "https://evil.com" };
+      const res = applicator.applyPatch(unsafePatch, demoBtn);
+      logBox.textContent = `[UNSAFE ATTRIBUTES REJECTION]\nSuccess: ${res.success}\nReason: ${res.reason}\nDetails: ${res.details}`;
+    };
+
+    document.getElementById("btn-conflict").onclick = () => {
+      // Live page mutates attribute
+      demoBtn.setAttribute("aria-label", "Live Page Overwrite Label");
+      updateDOMText();
+      const res = applicator.revertPatch(samplePatch.patchId, demoBtn);
+      logBox.textContent = `[CONFLICT HANDLING RESULT]\nSuccess: ${res.success}\nReason: ${res.reason}\nDetails: ${res.details}\n(DOM attribute preserved live page value!)`;
+    };
+  </script>
+</body>
+</html>

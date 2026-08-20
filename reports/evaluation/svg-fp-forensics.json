@@ -1,0 +1,19 @@
+{
+  "totalFalsePositives": 30,
+  "category": "svg-with-child-title",
+  "rootCauseAnalysis": {
+    "flawLocation": "DeterministicDetector.scan() Rule 1 Branch Matching",
+    "flawCondition": "if (tag === 'img' || role === 'img') triggered on <svg role='img'> elements",
+    "mechanism": "When an SVG specifies role='img', Rule 1 matched before Rule 6 (SVG Context Resolver). Rule 1 expects an 'alt' attribute, which native SVGs do not use (SVGs use child <title>/<desc> or ARIA). Missing 'alt' attribute caused Rule 1 to flag RULE_IMG_ALT_MISSING despite computed accessible name being valid ('Official Chart').",
+    "remediation": "Restrict Rule 1 matching to HTML <img> elements or non-SVG role='img' elements: tag === 'img' || (role === 'img' && tag !== 'svg'). All SVG tags are directed to Rule 6 (Context-Aware SVG Resolver)."
+  },
+  "affectedCaseCount": 30,
+  "caseIds": [
+    "SVG-OK-TITLE-1", "SVG-OK-TITLE-2", "SVG-OK-TITLE-3", "SVG-OK-TITLE-4", "SVG-OK-TITLE-5",
+    "SVG-OK-TITLE-6", "SVG-OK-TITLE-7", "SVG-OK-TITLE-8", "SVG-OK-TITLE-9", "SVG-OK-TITLE-10",
+    "SVG-OK-TITLE-11", "SVG-OK-TITLE-12", "SVG-OK-TITLE-13", "SVG-OK-TITLE-14", "SVG-OK-TITLE-15",
+    "SVG-OK-TITLE-16", "SVG-OK-TITLE-17", "SVG-OK-TITLE-18", "SVG-OK-TITLE-19", "SVG-OK-TITLE-20",
+    "SVG-OK-TITLE-21", "SVG-OK-TITLE-22", "SVG-OK-TITLE-23", "SVG-OK-TITLE-24", "SVG-OK-TITLE-25",
+    "SVG-OK-TITLE-26", "SVG-OK-TITLE-27", "SVG-OK-TITLE-28", "SVG-OK-TITLE-29", "SVG-OK-TITLE-30"
+  ]
+}

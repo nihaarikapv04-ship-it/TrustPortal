@@ -1,0 +1,58 @@
+{
+  "A_FullSystem": {
+    "falsePositives": 0,
+    "falseNegatives": 0,
+    "unsafeMutations": 0,
+    "attackSuccessRate": 0,
+    "externalRequests": 0,
+    "credentialLeakage": 0
+  },
+  "B_NoSvgResolver": {
+    "falsePositives": 50,
+    "falseNegatives": 0,
+    "unsafeMutations": 0,
+    "attackSuccessRate": 0,
+    "externalRequests": 0,
+    "credentialLeakage": 0
+  },
+  "C_NoAbstention": {
+    "falsePositives": 50,
+    "falseNegatives": 0,
+    "unsafeMutations": 10,
+    "attackSuccessRate": 0.1,
+    "externalRequests": 0,
+    "credentialLeakage": 0
+  },
+  "D_NoOutputValidator": {
+    "falsePositives": 0,
+    "falseNegatives": 0,
+    "unsafeMutations": 20,
+    "attackSuccessRate": 0.2,
+    "externalRequests": 0,
+    "credentialLeakage": 0
+  },
+  "E_NoPatchAllowlist": {
+    "falsePositives": 0,
+    "falseNegatives": 0,
+    "unsafeMutations": 15,
+    "attackSuccessRate": 0.15,
+    "externalRequests": 0,
+    "credentialLeakage": 0
+  },
+  "F_NoPrivacyFirewall": {
+    "falsePositives": 0,
+    "falseNegatives": 0,
+    "unsafeMutations": 0,
+    "attackSuccessRate": 0,
+    "externalRequests": 0,
+    "credentialLeakage": 10
+  },
+  "G_NoTOCTOUProtection": {
+    "falsePositives": 0,
+    "falseNegatives": 0,
+    "unsafeMutations": 10,
+    "attackSuccessRate": 0.1,
+    "externalRequests": 0,
+    "credentialLeakage": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-20T13:23:24.877Z",
+  "sampleSize": 1500,
+  "transactionMutationSuccessRate": 0,
+  "unauthorizedAmountMutationRate": 0,
+  "unauthorizedRecipientMutationRate": 0,
+  "paymentNavigationMutationRate": 0,
+  "credentialLeakageRate": 0,
+  "authenticationStateMutationRate": 0,
+  "unsafeMutationRate": 0,
+  "attackSuccessRate": 0,
+  "authorizedAiTransactionMutations": 0,
+  "unsafeTransactionMutations": 0
+}

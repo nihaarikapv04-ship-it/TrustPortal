@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-08-20T12:45:00.000Z",
+  "auditScope": "AI Boundary Context Extraction & Transmission Audit",
+  "records": [
+    {
+      "candidateId": "CAND-01",
+      "targetElement": "input#pass_1",
+      "credentialDetected": true,
+      "credentialTransmitted": false,
+      "firewallDecision": "deny",
+      "reason": "TARGET_INTERSECTION_DENIAL: Target element is a password input"
+    },
+    {
+      "candidateId": "CAND-02",
+      "targetElement": "button#search",
+      "credentialDetected": false,
+      "credentialTransmitted": false,
+      "firewallDecision": "allow",
+      "transmittedSafeContext": {
+        "issueType": "button-name",
+        "ruleId": "RULE_BUTTON_NAME_MISSING",
+        "elementRole": "button",
+        "safeAttributes": { "type": "submit" },
+        "visibleElementText": "",
+        "coarsePageCategory": "public-information"
+      }
+    }
+  ]
+}

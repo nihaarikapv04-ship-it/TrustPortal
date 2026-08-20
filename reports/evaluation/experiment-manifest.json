@@ -1,0 +1,21 @@
+{
+  "version": "7.0.0-FROZEN",
+  "timestamp": "2026-08-20T12:50:00.000Z",
+  "environment": {
+    "nodeVersion": "v20.x",
+    "typescript": "5.3.3",
+    "seed": "0x41434345",
+    "providerMode": "LOCAL_DETERMINISTIC_MOCK"
+  },
+  "benchmarks": [
+    { "id": "BM-V2", "file": "reports/evaluation/benchmark-v2-results.json", "n": 500 },
+    { "id": "BM-V3", "file": "reports/evaluation/benchmark-v3-results.json", "n": 500 },
+    { "id": "BM-V4", "file": "reports/evaluation/benchmark-v4-after-fix.json", "n": 930 },
+    { "id": "SVG-V3", "file": "reports/evaluation/svg-benchmark-v3-results.json", "n": 600 },
+    { "id": "REALWORLD", "file": "reports/realworld/realworld-summary.json", "n": 1700 },
+    { "id": "SCREEN-READER", "file": "reports/screen-reader/accessibility-state-before-after.json", "n": 425 },
+    { "id": "SEC-PROP-1000", "file": "reports/evaluation/property-based-security-results.json", "n": 1000 },
+    { "id": "SEC-HOLDOUT-500", "file": "reports/evaluation/security-holdout-results.json", "n": 500 },
+    { "id": "SEC-FUZZ-5000", "file": "reports/evaluation/security-fuzz-results.json", "n": 5000 }
+  ]
+}

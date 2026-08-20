@@ -1,0 +1,43 @@
+{
+  "syntheticBenchmarks": {
+    "benchmarkV3": {
+      "precision": { "value": 1.0, "numerator": 250, "denominator": 250, "formula": "TP / (TP + FP)", "dataset": "Benchmark-v3", "source": "reports/evaluation/benchmark-v3-results.json", "status": "EMPIRICALLY_VERIFIED" },
+      "recall": { "value": 1.0, "numerator": 250, "denominator": 250, "formula": "TP / (TP + FN)", "dataset": "Benchmark-v3", "source": "reports/evaluation/benchmark-v3-results.json", "status": "EMPIRICALLY_VERIFIED" },
+      "f1": { "value": 1.0, "numerator": 2, "denominator": 2, "formula": "2*P*R / (P+R)", "dataset": "Benchmark-v3", "source": "reports/evaluation/benchmark-v3-results.json", "status": "EMPIRICALLY_VERIFIED" }
+    },
+    "benchmarkV4_AfterFix": {
+      "precision": { "value": 1.0, "numerator": 340, "denominator": 340, "formula": "TP / (TP + FP)", "dataset": "Benchmark-v4-after-fix", "source": "reports/evaluation/benchmark-v4-after-fix.json", "status": "EMPIRICALLY_VERIFIED" },
+      "recall": { "value": 1.0, "numerator": 340, "denominator": 340, "formula": "TP / (TP + FN)", "dataset": "Benchmark-v4-after-fix", "source": "reports/evaluation/benchmark-v4-after-fix.json", "status": "EMPIRICALLY_VERIFIED" },
+      "f1": { "value": 1.0, "numerator": 2, "denominator": 2, "formula": "2*P*R / (P+R)", "dataset": "Benchmark-v4-after-fix", "source": "reports/evaluation/benchmark-v4-after-fix.json", "status": "EMPIRICALLY_VERIFIED" }
+    }
+  },
+  "svgBenchmarks": {
+    "holdoutSvgV3": {
+      "precision": { "value": 1.0, "numerator": 175, "denominator": 175, "formula": "TP / (TP + FP)", "dataset": "Holdout-SVG-V3", "source": "reports/evaluation/svg-benchmark-v3-results.json", "status": "EMPIRICALLY_VERIFIED" },
+      "recall": { "value": 0.5385, "numerator": 175, "denominator": 325, "formula": "TP / (TP + FN)", "dataset": "Holdout-SVG-V3", "source": "reports/evaluation/svg-benchmark-v3-results.json", "status": "EMPIRICALLY_VERIFIED" },
+      "abstentionRate": { "value": 0.3333, "numerator": 200, "denominator": 600, "formula": "Abstain / Total", "dataset": "Holdout-SVG-V3", "source": "reports/evaluation/svg-benchmark-v3-results.json", "status": "EMPIRICALLY_VERIFIED" },
+      "coverage": { "value": 0.6667, "numerator": 400, "denominator": 600, "formula": "(Total - Abstain) / Total", "dataset": "Holdout-SVG-V3", "source": "reports/evaluation/svg-benchmark-v3-results.json", "status": "EMPIRICALLY_VERIFIED" }
+    }
+  },
+  "realWorld": {
+    "manualReviewSample": {
+      "precision": { "value": 1.0, "numerator": 35, "denominator": 35, "formula": "TP / (TP + FP)", "dataset": "Real-world-manual-review", "source": "reports/realworld/realworld-summary.json", "status": "EMPIRICALLY_VERIFIED" },
+      "recall": { "value": 0.7778, "numerator": 35, "denominator": 45, "formula": "TP / (TP + FN)", "dataset": "Real-world-manual-review", "source": "reports/realworld/realworld-summary.json", "status": "EMPIRICALLY_VERIFIED" },
+      "abstentionRate": { "value": 0.10, "numerator": 10, "denominator": 100, "formula": "Ambiguous / N_reviewed", "dataset": "Real-world-manual-review", "source": "reports/realworld/realworld-summary.json", "status": "EMPIRICALLY_VERIFIED" }
+    }
+  },
+  "screenReaderSemanticState": {
+    "accessibleNameRecoveryRate": { "value": 0.8750, "numerator": 175, "denominator": 200, "formula": "NewlyNamed / EligibleDefective", "dataset": "Screen-reader-subset-5-pages", "source": "reports/screen-reader/accessibility-state-before-after.json", "status": "EMPIRICALLY_VERIFIED" },
+    "semanticPreservationRate": { "value": 1.0, "numerator": 225, "denominator": 225, "formula": "Preserved / AccessibleEvaluated", "dataset": "Screen-reader-subset-5-pages", "source": "reports/screen-reader/accessibility-state-before-after.json", "status": "EMPIRICALLY_VERIFIED" },
+    "semanticDegradationRate": { "value": 0.0, "numerator": 0, "denominator": 175, "formula": "Degraded / Modified", "dataset": "Screen-reader-subset-5-pages", "source": "reports/screen-reader/accessibility-state-before-after.json", "status": "EMPIRICALLY_VERIFIED" }
+  },
+  "security": {
+    "attackSuccessRate": { "value": 0.0, "numerator": 0, "denominator": 100, "formula": "SuccessfulAttacks / TotalAttacks", "dataset": "Security-V3-100-Payloads", "source": "reports/evaluation/svg-v3-security-results.json", "status": "EMPIRICALLY_VERIFIED" },
+    "unsafeMutationRate": { "value": 0.0, "numerator": 0, "denominator": 100, "formula": "UnsafeMutations / TotalAttacks", "dataset": "Security-V3-100-Payloads", "source": "reports/evaluation/svg-v3-security-results.json", "status": "EMPIRICALLY_VERIFIED" },
+    "externalNetworkRequests": { "value": 0, "numerator": 0, "denominator": 100, "formula": "RemoteRequests / TotalAttacks", "dataset": "Security-V3-100-Payloads", "source": "reports/evaluation/svg-v3-security-results.json", "status": "EMPIRICALLY_VERIFIED" }
+  },
+  "latency": {
+    "meanLocalRemediationLatencyMs": { "value": 0.006, "numerator": 6, "denominator": 1000, "formula": "Mean local microbenchmark", "dataset": "Latency-Microbenchmark-N1000", "source": "reports/evaluation/latency-v2-results.json", "status": "EMPIRICALLY_VERIFIED" },
+    "liveCloudProviderLatency": { "value": null, "numerator": null, "denominator": null, "formula": "Live Cloud RTT", "dataset": "None", "source": "N/A", "status": "NOT_EVALUATED" }
+  }
+}

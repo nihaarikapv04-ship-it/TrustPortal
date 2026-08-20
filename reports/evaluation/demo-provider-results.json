@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-08-20T13:22:02.493Z",
+  "providerMode": "LOCAL_DETERMINISTIC_MOCK",
+  "networkRequests": 0,
+  "totalProcessed": 10,
+  "remediated": 5,
+  "abstained": 1,
+  "ignored": 3,
+  "rejected": 1,
+  "scenariosExecuted": 10
+}

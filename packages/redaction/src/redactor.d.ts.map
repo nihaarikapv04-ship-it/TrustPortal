@@ -1,0 +1,1 @@
+{"version":3,"file":"redactor.d.ts","sourceRoot":"","sources":["redactor.ts"],"names":[],"mappings":"AAEA,MAAM,WAAW,eAAe;IAC9B,SAAS,EAAE,MAAM,CAAC;IAClB,cAAc,EAAE,MAAM,EAAE,CAAC;CAC1B;AAED,qBAAa,WAAW;IACtB;;OAEG;IACI,MAAM,CAAC,IAAI,EAAE,MAAM,GAAG,eAAe;CAqD7C;AAED,eAAO,MAAM,WAAW,aAAoB,CAAC"}

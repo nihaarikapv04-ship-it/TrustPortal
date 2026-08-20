@@ -1,0 +1,6 @@
+{
+  "benchmarkVersion": "tsif-eval-v1.0.0",
+  "timestamp": "2026-08-19T02:01:32.258Z",
+  "environment": "Local Monorepo Test Harness (macOS Darwin)",
+  "note": "Insufficient sample size for reliable latency characterization."
+}

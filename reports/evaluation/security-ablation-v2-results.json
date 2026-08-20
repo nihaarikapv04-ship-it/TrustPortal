@@ -1,0 +1,66 @@
+{
+  "A_FullSystem": {
+    "attackSuccessRate": 0,
+    "unsafeMutations": 0,
+    "credentialLeakage": 0,
+    "navigationMutations": 0,
+    "xssAcceptance": 0,
+    "staleTargetAcceptance": 0
+  },
+  "B_NoPrivacyFirewall": {
+    "attackSuccessRate": 0,
+    "unsafeMutations": 0,
+    "credentialLeakage": 10,
+    "navigationMutations": 0,
+    "xssAcceptance": 0,
+    "staleTargetAcceptance": 0
+  },
+  "C_NoOutputValidator": {
+    "attackSuccessRate": 0.2,
+    "unsafeMutations": 20,
+    "credentialLeakage": 0,
+    "navigationMutations": 0,
+    "xssAcceptance": 15,
+    "staleTargetAcceptance": 0
+  },
+  "D_NoCapabilityAllowlist": {
+    "attackSuccessRate": 0.15,
+    "unsafeMutations": 15,
+    "credentialLeakage": 0,
+    "navigationMutations": 10,
+    "xssAcceptance": 0,
+    "staleTargetAcceptance": 0
+  },
+  "E_NoTOCTOUProtection": {
+    "attackSuccessRate": 0.1,
+    "unsafeMutations": 10,
+    "credentialLeakage": 0,
+    "navigationMutations": 0,
+    "xssAcceptance": 0,
+    "staleTargetAcceptance": 10
+  },
+  "F_NoDOMClobberingProtection": {
+    "attackSuccessRate": 0.1,
+    "unsafeMutations": 10,
+    "credentialLeakage": 0,
+    "navigationMutations": 0,
+    "xssAcceptance": 0,
+    "staleTargetAcceptance": 0
+  },
+  "G_NoRiskGate": {
+    "attackSuccessRate": 0.25,
+    "unsafeMutations": 25,
+    "credentialLeakage": 0,
+    "navigationMutations": 0,
+    "xssAcceptance": 0,
+    "staleTargetAcceptance": 0
+  },
+  "H_NoMutationObserverLoopProtection": {
+    "attackSuccessRate": 0.05,
+    "unsafeMutations": 5,
+    "credentialLeakage": 0,
+    "navigationMutations": 0,
+    "xssAcceptance": 0,
+    "staleTargetAcceptance": 0
+  }
+}

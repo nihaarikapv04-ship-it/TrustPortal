@@ -1,0 +1,38 @@
+{
+  "benchmarkName": "Unseen SVG Benchmark V2 Forensics",
+  "totalCases": 500,
+  "falsePositiveCount": 50,
+  "falsePositiveCategory": "svg-symbol-use-sprite",
+  "forensicCategories": {
+    "CAT_1_UNRESOLVED_LOCAL_SYMBOL": {
+      "count": 50,
+      "description": "<use href='#symbol_id'> points to a <symbol> not present in the static element list or domMap.",
+      "failureMechanism": "Without document-wide DOM graph traversal or symbol map registration, the detector cannot inspect the referenced <symbol> element's child <title> or <desc>.",
+      "remediation": "Implement SvgSemanticResolver with domMap symbol registry lookup and explicit AMBIGUOUS_ABSTAIN state when symbol ID is unresolvable locally."
+    },
+    "CAT_2_UNHANDLED_TITLE_ATTRIBUTE_PROPERTY": {
+      "count": 50,
+      "description": "SVG element possesses title property on ElementRepresentation but not in attributes dictionary.",
+      "failureMechanism": "AccessibleNameComputer checked attrs['title'] but bypassed element.title property.",
+      "remediation": "Consolidate title attribute resolution across element.attributes['title'] and element.title property."
+    },
+    "CAT_3_EXTERNAL_REFERENCE_AMBIGUITY": {
+      "count": 0,
+      "description": "<use href='https://external.cdn/sprite.svg#icon'> external or cross-origin sprite reference.",
+      "failureMechanism": "Security invariant strictly forbids fetching remote network URLs.",
+      "remediation": "Flag external URL references as AMBIGUOUS_ABSTAIN with zero network requests."
+    }
+  },
+  "affectedCaseIds": [
+    "SVG-V2-OK-SPRITE-1", "SVG-V2-OK-SPRITE-2", "SVG-V2-OK-SPRITE-3", "SVG-V2-OK-SPRITE-4", "SVG-V2-OK-SPRITE-5",
+    "SVG-V2-OK-SPRITE-6", "SVG-V2-OK-SPRITE-7", "SVG-V2-OK-SPRITE-8", "SVG-V2-OK-SPRITE-9", "SVG-V2-OK-SPRITE-10",
+    "SVG-V2-OK-SPRITE-11", "SVG-V2-OK-SPRITE-12", "SVG-V2-OK-SPRITE-13", "SVG-V2-OK-SPRITE-14", "SVG-V2-OK-SPRITE-15",
+    "SVG-V2-OK-SPRITE-16", "SVG-V2-OK-SPRITE-17", "SVG-V2-OK-SPRITE-18", "SVG-V2-OK-SPRITE-19", "SVG-V2-OK-SPRITE-20",
+    "SVG-V2-OK-SPRITE-21", "SVG-V2-OK-SPRITE-22", "SVG-V2-OK-SPRITE-23", "SVG-V2-OK-SPRITE-24", "SVG-V2-OK-SPRITE-25",
+    "SVG-V2-OK-SPRITE-26", "SVG-V2-OK-SPRITE-27", "SVG-V2-OK-SPRITE-28", "SVG-V2-OK-SPRITE-29", "SVG-V2-OK-SPRITE-30",
+    "SVG-V2-OK-SPRITE-31", "SVG-V2-OK-SPRITE-32", "SVG-V2-OK-SPRITE-33", "SVG-V2-OK-SPRITE-34", "SVG-V2-OK-SPRITE-35",
+    "SVG-V2-OK-SPRITE-36", "SVG-V2-OK-SPRITE-37", "SVG-V2-OK-SPRITE-38", "SVG-V2-OK-SPRITE-39", "SVG-V2-OK-SPRITE-40",
+    "SVG-V2-OK-SPRITE-41", "SVG-V2-OK-SPRITE-42", "SVG-V2-OK-SPRITE-43", "SVG-V2-OK-SPRITE-44", "SVG-V2-OK-SPRITE-45",
+    "SVG-V2-OK-SPRITE-46", "SVG-V2-OK-SPRITE-47", "SVG-V2-OK-SPRITE-48", "SVG-V2-OK-SPRITE-49", "SVG-V2-OK-SPRITE-50"
+  ]
+}

@@ -1,0 +1,752 @@
+{
+  "pageId": "GOV-IN-20",
+  "url": "https://swachhbharatmission.gov.in",
+  "domain": "swachhbharatmission.gov.in",
+  "pageType": "sanitation-mission-portal",
+  "accessDate": "2026-08-20",
+  "totalDomElements": 85,
+  "counts": {
+    "img": 20,
+    "button": 20,
+    "a": 20,
+    "input": 10,
+    "svg": 15,
+    "hidden": 10
+  },
+  "defectsDetected": {
+    "missingImgAlt": 5,
+    "suspiciousImgAlt": 5,
+    "missingButtonName": 5,
+    "missingLinkName": 10,
+    "missingFormLabel": 5,
+    "missingSvgName": 5,
+    "correctlyLabelled": 40
+  },
+  "elements": [
+    {
+      "tag": "a",
+      "id": "GOV-IN-20_lnk_ok_1",
+      "textContent": "Portal Navigation Link 1",
+      "attributes": {
+        "href": "/services/nav_1"
+      }
+    },
+    {
+      "tag": "a",
+      "id": "GOV-IN-20_lnk_ok_2",
+      "textContent": "Portal Navigation Link 2",
+      "attributes": {
+        "href": "/services/nav_2"
+      }
+    },
+    {
+      "tag": "a",
+      "id": "GOV-IN-20_lnk_ok_3",
+      "textContent": "Portal Navigation Link 3",
+      "attributes": {
+        "href": "/services/nav_3"
+      }
+    },
+    {
+      "tag": "a",
+      "id": "GOV-IN-20_lnk_ok_4",
+      "textContent": "Portal Navigation Link 4",
+      "attributes": {
+        "href": "/services/nav_4"
+      }
+    },
+    {
+      "tag": "a",
+      "id": "GOV-IN-20_lnk_ok_5",
+      "textContent": "Portal Navigation Link 5",
+      "attributes": {
+        "href": "/services/nav_5"
+      }
+    },
+    {
+      "tag": "a",
+      "id": "GOV-IN-20_lnk_ok_6",
+      "textContent": "Portal Navigation Link 6",
+      "attributes": {
+        "href": "/services/nav_6"
+      }
+    },
+    {
+      "tag": "a",
+      "id": "GOV-IN-20_lnk_ok_7",
+      "textContent": "Portal Navigation Link 7",
+      "attributes": {
+        "href": "/services/nav_7"
+      }
+    },
+    {
+      "tag": "a",
+      "id": "GOV-IN-20_lnk_ok_8",
+      "textContent": "Portal Navigation Link 8",
+      "attributes": {
+        "href": "/services/nav_8"
+      }
+    },
+    {
+      "tag": "a",
+      "id": "GOV-IN-20_lnk_ok_9",
+      "textContent": "Portal Navigation Link 9",
+      "attributes": {
+        "href": "/services/nav_9"
+      }
+    },
+    {
+      "tag": "a",
+      "id": "GOV-IN-20_lnk_ok_10",
+      "textContent": "Portal Navigation Link 10",
+      "attributes": {
+        "href": "/services/nav_10"
+      }
+    },
+    {
+      "tag": "a",
+      "id": "GOV-IN-20_lnk_def_1",
+      "attributes": {
+        "href": "/external/link_1",
+        "class": "nav-social-icon"
+      }
+    },
+    {
+      "tag": "a",
+      "id": "GOV-IN-20_lnk_def_2",
+      "attributes": {
+        "href": "/external/link_2",
+        "class": "nav-social-icon"
+      }
+    },
+    {
+      "tag": "a",
+      "id": "GOV-IN-20_lnk_def_3",
+      "attributes": {
+        "href": "/external/link_3",
+        "class": "nav-social-icon"
+      }
+    },
+    {
+      "tag": "a",
+      "id": "GOV-IN-20_lnk_def_4",
+      "attributes": {
+        "href": "/external/link_4",
+        "class": "nav-social-icon"
+      }
+    },
+    {
+      "tag": "a",
+      "id": "GOV-IN-20_lnk_def_5",
+      "attributes": {
+        "href": "/external/link_5",
+        "class": "nav-social-icon"
+      }
+    },
+    {
+      "tag": "a",
+      "id": "GOV-IN-20_lnk_def_6",
+      "attributes": {
+        "href": "/external/link_6",
+        "class": "nav-social-icon"
+      }
+    },
+    {
+      "tag": "a",
+      "id": "GOV-IN-20_lnk_def_7",
+      "attributes": {
+        "href": "/external/link_7",
+        "class": "nav-social-icon"
+      }
+    },
+    {
+      "tag": "a",
+      "id": "GOV-IN-20_lnk_def_8",
+      "attributes": {
+        "href": "/external/link_8",
+        "class": "nav-social-icon"
+      }
+    },
+    {
+      "tag": "a",
+      "id": "GOV-IN-20_lnk_def_9",
+      "attributes": {
+        "href": "/external/link_9",
+        "class": "nav-social-icon"
+      }
+    },
+    {
+      "tag": "a",
+      "id": "GOV-IN-20_lnk_def_10",
+      "attributes": {
+        "href": "/external/link_10",
+        "class": "nav-social-icon"
+      }
+    },
+    {
+      "tag": "button",
+      "id": "GOV-IN-20_btn_ok_1",
+      "textContent": "Search Portal 1",
+      "attributes": {
+        "type": "submit",
+        "class": "btn-primary"
+      }
+    },
+    {
+      "tag": "button",
+      "id": "GOV-IN-20_btn_ok_2",
+      "textContent": "Search Portal 2",
+      "attributes": {
+        "type": "submit",
+        "class": "btn-primary"
+      }
+    },
+    {
+      "tag": "button",
+      "id": "GOV-IN-20_btn_ok_3",
+      "textContent": "Search Portal 3",
+      "attributes": {
+        "type": "submit",
+        "class": "btn-primary"
+      }
+    },
+    {
+      "tag": "button",
+      "id": "GOV-IN-20_btn_ok_4",
+      "textContent": "Search Portal 4",
+      "attributes": {
+        "type": "submit",
+        "class": "btn-primary"
+      }
+    },
+    {
+      "tag": "button",
+      "id": "GOV-IN-20_btn_ok_5",
+      "textContent": "Search Portal 5",
+      "attributes": {
+        "type": "submit",
+        "class": "btn-primary"
+      }
+    },
+    {
+      "tag": "button",
+      "id": "GOV-IN-20_btn_ok_6",
+      "textContent": "Search Portal 6",
+      "attributes": {
+        "type": "submit",
+        "class": "btn-primary"
+      }
+    },
+    {
+      "tag": "button",
+      "id": "GOV-IN-20_btn_ok_7",
+      "textContent": "Search Portal 7",
+      "attributes": {
+        "type": "submit",
+        "class": "btn-primary"
+      }
+    },
+    {
+      "tag": "button",
+      "id": "GOV-IN-20_btn_ok_8",
+      "textContent": "Search Portal 8",
+      "attributes": {
+        "type": "submit",
+        "class": "btn-primary"
+      }
+    },
+    {
+      "tag": "button",
+      "id": "GOV-IN-20_btn_ok_9",
+      "textContent": "Search Portal 9",
+      "attributes": {
+        "type": "submit",
+        "class": "btn-primary"
+      }
+    },
+    {
+      "tag": "button",
+      "id": "GOV-IN-20_btn_ok_10",
+      "textContent": "Search Portal 10",
+      "attributes": {
+        "type": "submit",
+        "class": "btn-primary"
+      }
+    },
+    {
+      "tag": "button",
+      "id": "GOV-IN-20_btn_def_1",
+      "attributes": {
+        "type": "button",
+        "class": "btn-icon-only"
+      }
+    },
+    {
+      "tag": "button",
+      "id": "GOV-IN-20_btn_def_2",
+      "attributes": {
+        "type": "button",
+        "class": "btn-icon-only"
+      }
+    },
+    {
+      "tag": "button",
+      "id": "GOV-IN-20_btn_def_3",
+      "attributes": {
+        "type": "button",
+        "class": "btn-icon-only"
+      }
+    },
+    {
+      "tag": "button",
+      "id": "GOV-IN-20_btn_def_4",
+      "attributes": {
+        "type": "button",
+        "class": "btn-icon-only"
+      }
+    },
+    {
+      "tag": "button",
+      "id": "GOV-IN-20_btn_def_5",
+      "attributes": {
+        "type": "button",
+        "class": "btn-icon-only"
+      }
+    },
+    {
+      "tag": "img",
+      "id": "GOV-IN-20_img_ok_1",
+      "attributes": {
+        "src": "/assets/emblem_1.png",
+        "alt": "National Portal Emblem 1"
+      }
+    },
+    {
+      "tag": "img",
+      "id": "GOV-IN-20_img_ok_2",
+      "attributes": {
+        "src": "/assets/emblem_2.png",
+        "alt": "National Portal Emblem 2"
+      }
+    },
+    {
+      "tag": "img",
+      "id": "GOV-IN-20_img_ok_3",
+      "attributes": {
+        "src": "/assets/emblem_3.png",
+        "alt": "National Portal Emblem 3"
+      }
+    },
+    {
+      "tag": "img",
+      "id": "GOV-IN-20_img_ok_4",
+      "attributes": {
+        "src": "/assets/emblem_4.png",
+        "alt": "National Portal Emblem 4"
+      }
+    },
+    {
+      "tag": "img",
+      "id": "GOV-IN-20_img_ok_5",
+      "attributes": {
+        "src": "/assets/emblem_5.png",
+        "alt": "National Portal Emblem 5"
+      }
+    },
+    {
+      "tag": "img",
+      "id": "GOV-IN-20_img_def_1",
+      "attributes": {
+        "src": "/assets/banner_1.jpg"
+      }
+    },
+    {
+      "tag": "img",
+      "id": "GOV-IN-20_img_def_2",
+      "attributes": {
+        "src": "/assets/banner_2.jpg"
+      }
+    },
+    {
+      "tag": "img",
+      "id": "GOV-IN-20_img_def_3",
+      "attributes": {
+        "src": "/assets/banner_3.jpg"
+      }
+    },
+    {
+      "tag": "img",
+      "id": "GOV-IN-20_img_def_4",
+      "attributes": {
+        "src": "/assets/banner_4.jpg"
+      }
+    },
+    {
+      "tag": "img",
+      "id": "GOV-IN-20_img_def_5",
+      "attributes": {
+        "src": "/assets/banner_5.jpg"
+      }
+    },
+    {
+      "tag": "img",
+      "id": "GOV-IN-20_img_susp_1",
+      "attributes": {
+        "src": "/assets/header_1.png",
+        "alt": "placeholder"
+      }
+    },
+    {
+      "tag": "img",
+      "id": "GOV-IN-20_img_susp_2",
+      "attributes": {
+        "src": "/assets/header_2.png",
+        "alt": "placeholder"
+      }
+    },
+    {
+      "tag": "img",
+      "id": "GOV-IN-20_img_susp_3",
+      "attributes": {
+        "src": "/assets/header_3.png",
+        "alt": "placeholder"
+      }
+    },
+    {
+      "tag": "img",
+      "id": "GOV-IN-20_img_susp_4",
+      "attributes": {
+        "src": "/assets/header_4.png",
+        "alt": "placeholder"
+      }
+    },
+    {
+      "tag": "img",
+      "id": "GOV-IN-20_img_susp_5",
+      "attributes": {
+        "src": "/assets/header_5.png",
+        "alt": "placeholder"
+      }
+    },
+    {
+      "tag": "input",
+      "id": "GOV-IN-20_inp_ok_1",
+      "attributes": {
+        "type": "text",
+        "aria-label": "Enter Application ID 1"
+      }
+    },
+    {
+      "tag": "input",
+      "id": "GOV-IN-20_inp_ok_2",
+      "attributes": {
+        "type": "text",
+        "aria-label": "Enter Application ID 2"
+      }
+    },
+    {
+      "tag": "input",
+      "id": "GOV-IN-20_inp_ok_3",
+      "attributes": {
+        "type": "text",
+        "aria-label": "Enter Application ID 3"
+      }
+    },
+    {
+      "tag": "input",
+      "id": "GOV-IN-20_inp_ok_4",
+      "attributes": {
+        "type": "text",
+        "aria-label": "Enter Application ID 4"
+      }
+    },
+    {
+      "tag": "input",
+      "id": "GOV-IN-20_inp_ok_5",
+      "attributes": {
+        "type": "text",
+        "aria-label": "Enter Application ID 5"
+      }
+    },
+    {
+      "tag": "input",
+      "id": "GOV-IN-20_inp_def_1",
+      "attributes": {
+        "type": "text",
+        "placeholder": "Search Scheme 1"
+      }
+    },
+    {
+      "tag": "input",
+      "id": "GOV-IN-20_inp_def_2",
+      "attributes": {
+        "type": "text",
+        "placeholder": "Search Scheme 2"
+      }
+    },
+    {
+      "tag": "input",
+      "id": "GOV-IN-20_inp_def_3",
+      "attributes": {
+        "type": "text",
+        "placeholder": "Search Scheme 3"
+      }
+    },
+    {
+      "tag": "input",
+      "id": "GOV-IN-20_inp_def_4",
+      "attributes": {
+        "type": "text",
+        "placeholder": "Search Scheme 4"
+      }
+    },
+    {
+      "tag": "input",
+      "id": "GOV-IN-20_inp_def_5",
+      "attributes": {
+        "type": "text",
+        "placeholder": "Search Scheme 5"
+      }
+    },
+    {
+      "tag": "svg",
+      "id": "GOV-IN-20_svg_title_1",
+      "role": "img",
+      "attributes": {
+        "class": "gov-logo-svg"
+      },
+      "children": [
+        {
+          "tag": "title",
+          "attributes": {},
+          "textContent": "Official Portal Logo 1"
+        }
+      ]
+    },
+    {
+      "tag": "svg",
+      "id": "GOV-IN-20_svg_title_2",
+      "role": "img",
+      "attributes": {
+        "class": "gov-logo-svg"
+      },
+      "children": [
+        {
+          "tag": "title",
+          "attributes": {},
+          "textContent": "Official Portal Logo 2"
+        }
+      ]
+    },
+    {
+      "tag": "svg",
+      "id": "GOV-IN-20_svg_title_3",
+      "role": "img",
+      "attributes": {
+        "class": "gov-logo-svg"
+      },
+      "children": [
+        {
+          "tag": "title",
+          "attributes": {},
+          "textContent": "Official Portal Logo 3"
+        }
+      ]
+    },
+    {
+      "tag": "svg",
+      "id": "GOV-IN-20_svg_title_4",
+      "role": "img",
+      "attributes": {
+        "class": "gov-logo-svg"
+      },
+      "children": [
+        {
+          "tag": "title",
+          "attributes": {},
+          "textContent": "Official Portal Logo 4"
+        }
+      ]
+    },
+    {
+      "tag": "svg",
+      "id": "GOV-IN-20_svg_title_5",
+      "role": "img",
+      "attributes": {
+        "class": "gov-logo-svg"
+      },
+      "children": [
+        {
+          "tag": "title",
+          "attributes": {},
+          "textContent": "Official Portal Logo 5"
+        }
+      ]
+    },
+    {
+      "tag": "svg",
+      "id": "GOV-IN-20_svg_pbtn_1",
+      "attributes": {
+        "class": "btn-svg-icon"
+      },
+      "parentRole": "button",
+      "parentAccessibleName": "Download PDF Notice 1"
+    },
+    {
+      "tag": "svg",
+      "id": "GOV-IN-20_svg_pbtn_2",
+      "attributes": {
+        "class": "btn-svg-icon"
+      },
+      "parentRole": "button",
+      "parentAccessibleName": "Download PDF Notice 2"
+    },
+    {
+      "tag": "svg",
+      "id": "GOV-IN-20_svg_pbtn_3",
+      "attributes": {
+        "class": "btn-svg-icon"
+      },
+      "parentRole": "button",
+      "parentAccessibleName": "Download PDF Notice 3"
+    },
+    {
+      "tag": "svg",
+      "id": "GOV-IN-20_svg_pbtn_4",
+      "attributes": {
+        "class": "btn-svg-icon"
+      },
+      "parentRole": "button",
+      "parentAccessibleName": "Download PDF Notice 4"
+    },
+    {
+      "tag": "svg",
+      "id": "GOV-IN-20_svg_pbtn_5",
+      "attributes": {
+        "class": "btn-svg-icon"
+      },
+      "parentRole": "button",
+      "parentAccessibleName": "Download PDF Notice 5"
+    },
+    {
+      "tag": "svg",
+      "id": "GOV-IN-20_svg_def_1",
+      "role": "img",
+      "attributes": {
+        "class": "unlabelled-icon"
+      }
+    },
+    {
+      "tag": "svg",
+      "id": "GOV-IN-20_svg_def_2",
+      "role": "img",
+      "attributes": {
+        "class": "unlabelled-icon"
+      }
+    },
+    {
+      "tag": "svg",
+      "id": "GOV-IN-20_svg_def_3",
+      "role": "img",
+      "attributes": {
+        "class": "unlabelled-icon"
+      }
+    },
+    {
+      "tag": "svg",
+      "id": "GOV-IN-20_svg_def_4",
+      "role": "img",
+      "attributes": {
+        "class": "unlabelled-icon"
+      }
+    },
+    {
+      "tag": "svg",
+      "id": "GOV-IN-20_svg_def_5",
+      "role": "img",
+      "attributes": {
+        "class": "unlabelled-icon"
+      }
+    },
+    {
+      "tag": "button",
+      "id": "GOV-IN-20_hid_1",
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "tag": "button",
+      "id": "GOV-IN-20_hid_2",
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "tag": "button",
+      "id": "GOV-IN-20_hid_3",
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "tag": "button",
+      "id": "GOV-IN-20_hid_4",
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "tag": "button",
+      "id": "GOV-IN-20_hid_5",
+      "attributes": {
+        "aria-hidden": "true"
+      }
+    },
+    {
+      "tag": "img",
+      "id": "GOV-IN-20_pres_1",
+      "role": "presentation",
+      "attributes": {
+        "src": "/bg_1.png",
+        "alt": ""
+      }
+    },
+    {
+      "tag": "img",
+      "id": "GOV-IN-20_pres_2",
+      "role": "presentation",
+      "attributes": {
+        "src": "/bg_2.png",
+        "alt": ""
+      }
+    },
+    {
+      "tag": "img",
+      "id": "GOV-IN-20_pres_3",
+      "role": "presentation",
+      "attributes": {
+        "src": "/bg_3.png",
+        "alt": ""
+      }
+    },
+    {
+      "tag": "img",
+      "id": "GOV-IN-20_pres_4",
+      "role": "presentation",
+      "attributes": {
+        "src": "/bg_4.png",
+        "alt": ""
+      }
+    },
+    {
+      "tag": "img",
+      "id": "GOV-IN-20_pres_5",
+      "role": "presentation",
+      "attributes": {
+        "src": "/bg_5.png",
+        "alt": ""
+      }
+    }
+  ]
+}

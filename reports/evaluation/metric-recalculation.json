@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-08-20T12:55:00.000Z",
+  "recalculations": [
+    {
+      "dataset": "Benchmark-v4",
+      "rawCounts": { "TP": 340, "TN": 540, "FP": 50, "FN": 0 },
+      "formula": "Precision = TP / (TP + FP)",
+      "calculatedValue": 0.8718,
+      "reportedValue": 0.8718,
+      "difference": 0.0,
+      "status": "EXACT_MATCH"
+    },
+    {
+      "dataset": "Holdout-SVG-V3",
+      "rawCounts": { "TP": 175, "TN": 225, "FP": 0, "FN": 150, "Abstained": 200 },
+      "formula": "Recall = TP / (TP + FN)",
+      "calculatedValue": 0.5385,
+      "reportedValue": 0.5385,
+      "difference": 0.0,
+      "status": "EXACT_MATCH"
+    },
+    {
+      "dataset": "Real-World-Review",
+      "rawCounts": { "TP": 35, "TN": 45, "FP": 0, "FN": 10, "Ambiguous": 10 },
+      "formula": "Precision = TP / (TP + FP)",
+      "calculatedValue": 1.0,
+      "reportedValue": 1.0,
+      "difference": 0.0,
+      "status": "EXACT_MATCH"
+    }
+  ]
+}

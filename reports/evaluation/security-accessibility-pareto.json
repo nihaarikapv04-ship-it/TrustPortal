@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-08-20T12:50:00.000Z",
+  "primaryConstraint": "Unsafe Mutation Rate = 0.0%",
+  "maximumObservedCoverage": 0.90,
+  "configurations": [
+    { "id": "Full System (Baseline)", "precision": 1.0, "recall": 0.7778, "coverage": 0.90, "abstention": 0.10, "unsafeMutations": 0.0 },
+    { "id": "No Abstention", "precision": 0.8333, "recall": 0.8889, "coverage": 1.00, "abstention": 0.00, "unsafeMutations": 0.10 }
+  ]
+}

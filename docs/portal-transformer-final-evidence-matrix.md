@@ -1,0 +1,22 @@
+# Final Thesis Evidence Traceability Matrix (`docs/portal-transformer-final-evidence-matrix.md`)
+
+> **Traceability Standard**: Maps every core thesis claim to empirical code, benchmark JSON artifacts, and status classifications.  
+> **Status Classifications**: `EMPIRICALLY VERIFIED`, `PARTIALLY VERIFIED`, `NOT YET VERIFIED`, `NOT EVALUATED`.
+
+---
+
+## 1. Thesis Claim Traceability Table
+
+| ID | Thesis Claim | Evidence Artifact | Dataset / Scope | Primary Metric | Verification Status | Limitation |
+| :-: | :--- | :--- | :--- | :--- | :---: | :--- |
+| **TC1**| **Deterministic Defect Detection** | `packages/rules/src/detector.ts`<br>[`reports/evaluation/benchmark-v4-after-fix.json`](file:///Users/nihaarikapv/.gemini/antigravity/scratch/trustportal/reports/evaluation/benchmark-v4-after-fix.json) | Benchmark v4 ($N=930$) | Precision: 100.0%<br>Recall: 100.0% | `EMPIRICALLY VERIFIED` | Synthetic DOM fixtures |
+| **TC2**| **Context-Aware SVG Resolution** | `packages/rules/src/svg_resolver.ts`<br>[`reports/evaluation/svg-benchmark-v3-results.json`](file:///Users/nihaarikapv/.gemini/antigravity/scratch/trustportal/reports/evaluation/svg-benchmark-v3-results.json) | Holdout SVG V3 ($N=600$) | Precision: 100.0%<br>FPR: 0.0% | `EMPIRICALLY VERIFIED` | $33.33\%$ Abstention Rate on unresolved symbols |
+| **TC3**| **Confidence-Based Abstention** | `packages/rules/src/svg_resolver.ts`<br>[`reports/evaluation/svg-benchmark-v3-results.json`](file:///Users/nihaarikapv/.gemini/antigravity/scratch/trustportal/reports/evaluation/svg-benchmark-v3-results.json) | Holdout SVG V3 ($N=600$) | Abstention: $33.33\%$<br>Coverage: $66.67\%$ | `EMPIRICALLY VERIFIED` | Reduces recall on ambiguous fixtures |
+| **TC4**| **Cybersecurity Containment** | `apps/api/src/services/validator.ts`<br>[`reports/evaluation/svg-v3-security-results.json`](file:///Users/nihaarikapv/.gemini/antigravity/scratch/trustportal/reports/evaluation/svg-v3-security-results.json) | 100 Security Payloads | Attack Success Rate: 0.0% | `EMPIRICALLY VERIFIED` | Tested against local attack corpus |
+| **TC5**| **Privacy & Credential Isolation**| `packages/redaction/src/firewall.ts`<br>[`reports/realworld/realworld-summary.json`](file:///Users/nihaarikapv/.gemini/antigravity/scratch/trustportal/reports/realworld/realworld-summary.json) | 20 Real-World Pages | Credential Leakage: 0 | `EMPIRICALLY VERIFIED` | Excludes authenticated user sessions |
+| **TC6**| **Real-World `.gov.in` Performance** | `packages/eval/src/realworld/`<br>[`reports/realworld/realworld-summary.json`](file:///Users/nihaarikapv/.gemini/antigravity/scratch/trustportal/reports/realworld/realworld-summary.json) | 20 `.gov.in` Portals ($N=1,700$) | Sample Precision: 100.0% ($N=100$) | `PARTIALLY VERIFIED` | Evaluated on curated 20-page sample |
+| **TC7**| **Client-Side Remediation Latency**| [`reports/evaluation/latency-v2-results.json`](file:///Users/nihaarikapv/.gemini/antigravity/scratch/trustportal/reports/evaluation/latency-v2-results.json) | $N=1000$ Micro-benchmarks | Mean Local Latency: 0.006 ms | `PARTIALLY VERIFIED` | Local mock provider only; cloud RTT unevaluated |
+| **TC8**| **Screen-Reader State Recovery**| `packages/eval/src/screenreader/`<br>[`reports/screen-reader/accessibility-state-before-after.json`](file:///Users/nihaarikapv/.gemini/antigravity/scratch/trustportal/reports/screen-reader/accessibility-state-before-after.json) | 5 Subset Portals ($N=425$) | ANRR: 87.50%<br>SPR: 100.0% | `PARTIALLY VERIFIED` | DOM accessibility-tree semantic state |
+| **TC9**| **NVDA Spoken Audio Usability** | [`docs/portal-transformer-nvda-test-protocol.md`](file:///Users/nihaarikapv/.gemini/antigravity/scratch/trustportal/docs/portal-transformer-nvda-test-protocol.md) | N/A | Spoken Audio Quality | `NOT EVALUATED` | Environment limitation (headless CLI) |
+| **TC10**|**TalkBack Mobile Audio Usability**| [`docs/portal-transformer-talkback-test-protocol.md`](file:///Users/nihaarikapv/.gemini/antigravity/scratch/trustportal/docs/portal-transformer-talkback-test-protocol.md) | N/A | Mobile Spoken Quality | `NOT EVALUATED` | Environment limitation (no Android hardware) |
+| **TC11**|**Human-Subject Usability (SUS)**| [`docs/portal-transformer-human-usability-protocol.md`](file:///Users/nihaarikapv/.gemini/antigravity/scratch/trustportal/docs/portal-transformer-human-usability-protocol.md) | N/A | Task Completion Rate | `NOT EVALUATED` | Human study not conducted |

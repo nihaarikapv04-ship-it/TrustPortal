@@ -1,0 +1,162 @@
+[
+  {
+    "id": "GOV-IN-01",
+    "url": "https://www.india.gov.in",
+    "domain": "india.gov.in",
+    "pageType": "government-national-portal",
+    "accessDate": "2026-08-20",
+    "notes": "National Portal of India main citizen landing page with search, navigation menus, and service banners."
+  },
+  {
+    "id": "GOV-IN-02",
+    "url": "https://www.digitalindia.gov.in",
+    "domain": "digitalindia.gov.in",
+    "pageType": "information-portal",
+    "accessDate": "2026-08-20",
+    "notes": "Digital India flagship initiative portal featuring SVG logos, interactive cards, and multimedia links."
+  },
+  {
+    "id": "GOV-IN-03",
+    "url": "https://passportindia.gov.in",
+    "domain": "passportindia.gov.in",
+    "pageType": "application-service-portal",
+    "accessDate": "2026-08-20",
+    "notes": "Passport Seva official portal with login forms, appointment status controls, and public notices."
+  },
+  {
+    "id": "GOV-IN-04",
+    "url": "https://eportal.incometax.gov.in",
+    "domain": "incometax.gov.in",
+    "pageType": "financial-service-portal",
+    "accessDate": "2026-08-20",
+    "notes": "Income Tax Department e-Filing portal landing page with form inputs, help buttons, and SVG icons."
+  },
+  {
+    "id": "GOV-IN-05",
+    "url": "https://parivahan.gov.in",
+    "domain": "parivahan.gov.in",
+    "pageType": "transport-service-portal",
+    "accessDate": "2026-08-20",
+    "notes": "Parivahan Sewa transport service portal with Vahan/Sarathi service selection controls and dynamic banners."
+  },
+  {
+    "id": "GOV-IN-06",
+    "url": "https://pgportal.gov.in",
+    "domain": "pgportal.gov.in",
+    "pageType": "citizen-grievance-portal",
+    "accessDate": "2026-08-20",
+    "notes": "CPGRAMS public grievance portal containing grievance submission forms and status tracking inputs."
+  },
+  {
+    "id": "GOV-IN-07",
+    "url": "https://mygov.in",
+    "domain": "mygov.in",
+    "pageType": "citizen-engagement-dashboard",
+    "accessDate": "2026-08-20",
+    "notes": "MyGov citizen engagement dashboard featuring poll buttons, discussion cards, and social media SVG icons."
+  },
+  {
+    "id": "GOV-IN-08",
+    "url": "https://pmkisan.gov.in",
+    "domain": "pmkisan.gov.in",
+    "pageType": "welfare-service-portal",
+    "accessDate": "2026-08-20",
+    "notes": "PM-Kisan Samman Nidhi portal with beneficiary status form inputs and multilingual service buttons."
+  },
+  {
+    "id": "GOV-IN-09",
+    "url": "https://jaljeevanmission.gov.in",
+    "domain": "jaljeevanmission.gov.in",
+    "pageType": "departmental-dashboard",
+    "accessDate": "2026-08-20",
+    "notes": "Jal Jeevan Mission progress dashboard featuring SVG data graphics, regional maps, and statistics cards."
+  },
+  {
+    "id": "GOV-IN-10",
+    "url": "https://uidai.gov.in",
+    "domain": "uidai.gov.in",
+    "pageType": "identity-information-portal",
+    "accessDate": "2026-08-20",
+    "notes": "Unique Identification Authority of India (UIDAI) portal with service quick-links and search inputs."
+  },
+  {
+    "id": "GOV-IN-11",
+    "url": "https://epfindia.gov.in",
+    "domain": "epfindia.gov.in",
+    "pageType": "provident-fund-portal",
+    "accessDate": "2026-08-20",
+    "notes": "Employees' Provident Fund Organisation portal with member passbook links and alert notices."
+  },
+  {
+    "id": "GOV-IN-12",
+    "url": "https://mparivahan.parivahan.gov.in",
+    "domain": "parivahan.gov.in",
+    "pageType": "mobile-web-dashboard",
+    "accessDate": "2026-08-20",
+    "notes": "mParivahan mobile web application view with icon-heavy navigation grid and search inputs."
+  },
+  {
+    "id": "GOV-IN-13",
+    "url": "https://swayam.gov.in",
+    "domain": "swayam.gov.in",
+    "pageType": "education-portal",
+    "accessDate": "2026-08-20",
+    "notes": "SWAYAM online education repository with course catalogue filters and enrollment buttons."
+  },
+  {
+    "id": "GOV-IN-14",
+    "url": "https://ncs.gov.in",
+    "domain": "ncs.gov.in",
+    "pageType": "employment-portal",
+    "accessDate": "2026-08-20",
+    "notes": "National Career Service portal featuring job search form inputs, sector cards, and employer links."
+  },
+  {
+    "id": "GOV-IN-15",
+    "url": "https://co-win.gov.in",
+    "domain": "cowin.gov.in",
+    "pageType": "health-service-portal",
+    "accessDate": "2026-08-20",
+    "notes": "CoWIN vaccination verification portal with certificate search inputs and regional center filters."
+  },
+  {
+    "id": "GOV-IN-16",
+    "url": "https://nvsp.in",
+    "domain": "voters.eci.gov.in",
+    "pageType": "voter-service-portal",
+    "accessDate": "2026-08-20",
+    "notes": "National Voters' Service Portal with electoral search form controls and Form 6 application links."
+  },
+  {
+    "id": "GOV-IN-17",
+    "url": "https://rtionline.gov.in",
+    "domain": "rtionline.gov.in",
+    "pageType": "rti-filing-portal",
+    "accessDate": "2026-08-20",
+    "notes": "RTI Online filing portal with public authority search inputs and submission guidelines."
+  },
+  {
+    "id": "GOV-IN-18",
+    "url": "https://gem.gov.in",
+    "domain": "gem.gov.in",
+    "pageType": "procurement-marketplace",
+    "accessDate": "2026-08-20",
+    "notes": "Government e-Marketplace (GeM) portal featuring category search inputs and product icons."
+  },
+  {
+    "id": "GOV-IN-19",
+    "url": "https://dbtbharat.gov.in",
+    "domain": "dbtbharat.gov.in",
+    "pageType": "direct-benefit-transfer-portal",
+    "accessDate": "2026-08-20",
+    "notes": "Direct Benefit Transfer (DBT) Bharat portal with scheme statistics tables and performance charts."
+  },
+  {
+    "id": "GOV-IN-20",
+    "url": "https://swachhbharatmission.gov.in",
+    "domain": "swachhbharatmission.gov.in",
+    "pageType": "sanitation-mission-portal",
+    "accessDate": "2026-08-20",
+    "notes": "Swachh Bharat Mission portal with progress maps, photo gallery images, and report download buttons."
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "name": "@trustportal/demo",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run tests/*.test.ts"
+  },
+  "dependencies": {
+    "@trustportal/rules": "*",
+    "@trustportal/schemas": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.0",
+    "vitest": "^1.2.2"
+  }
+}

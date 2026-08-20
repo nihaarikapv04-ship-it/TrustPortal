@@ -1,0 +1,241 @@
+:root {
+  --primary: #0f172a;
+  --primary-light: #1e293b;
+  --accent: #2563eb;
+  --bg-app: #f8fafc;
+  --card-bg: #ffffff;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --border-color: #e2e8f0;
+  
+  --state-low-bg: #f0fdf4;
+  --state-low-border: #bbf7d0;
+  --state-low-text: #166534;
+  
+  --state-medium-bg: #fffbebf;
+  --state-medium-border: #fef08a;
+  --state-medium-text: #854d0e;
+  
+  --state-high-bg: #fff1f2;
+  --state-high-border: #fecdd3;
+  --state-high-text: #9f1239;
+
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-app);
+  color: var(--text-main);
+  line-height: 1.5;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.trustqr-container {
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.trustqr-header {
+  text-align: center;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.trustqr-header h1 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--primary);
+  letter-spacing: -0.02em;
+}
+
+.trustqr-header p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.fact-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  background: #e2e8f0;
+  color: #334155;
+}
+
+.ai-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  background: #e0e7ff;
+  color: #3730a3;
+}
+
+.demo-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.demo-controls label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+select, button {
+  font-family: inherit;
+  font-size: 0.9rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  background: white;
+  cursor: pointer;
+}
+
+button.btn-primary {
+  background: var(--primary);
+  color: white;
+  font-weight: 600;
+  border: none;
+  width: 100%;
+}
+
+button.btn-primary:focus, select:focus {
+  outline: 2px solid var(--accent);
+}
+
+.payment-facts-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.payment-facts-table td {
+  padding: 0.4rem 0;
+  font-size: 0.9rem;
+}
+
+.payment-facts-table td.label {
+  color: var(--text-muted);
+  width: 40%;
+}
+
+.payment-facts-table td.value {
+  font-weight: 600;
+  color: var(--text-main);
+  text-align: right;
+  word-break: break-all;
+}
+
+.amount-display {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.risk-badge-panel {
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  align-items: center;
+  text-align: center;
+}
+
+.risk-badge-panel.INFORMATIONAL, .risk-badge-panel.low {
+  background: var(--state-low-bg);
+  border: 1px solid var(--state-low-border);
+  color: var(--state-low-text);
+}
+
+.risk-badge-panel.NEEDS_REVIEW, .risk-badge-panel.medium {
+  background: #fefce8;
+  border: 1px solid var(--state-medium-border);
+  color: var(--state-medium-text);
+}
+
+.risk-badge-panel.HIGH_RISK_WARNING, .risk-badge-panel.high {
+  background: var(--state-high-bg);
+  border: 1px solid var(--state-high-border);
+  color: var(--state-high-text);
+}
+
+.risk-badge-panel.BLOCKED, .risk-badge-panel.blocked {
+  background: #450a0a;
+  border: 1px solid #991b1b;
+  color: #fef2f2;
+}
+
+.risk-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.risk-disclaimer {
+  font-size: 0.75rem;
+  opacity: 0.85;
+}
+
+.checklist {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.checklist li {
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.disclaimer-box {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  background: #f1f5f9;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  margin-top: 0.75rem;
+}
+
+.privacy-notice {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-align: center;
+  padding: 0.5rem;
+}

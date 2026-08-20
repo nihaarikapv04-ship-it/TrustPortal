@@ -1,0 +1,51 @@
+{
+  "sampleSize": 500,
+  "positiveDefects": 250,
+  "negativeControls": 250,
+  "confusionMatrix": {
+    "TP": 250,
+    "TN": 250,
+    "FP": 0,
+    "FN": 0
+  },
+  "metrics": {
+    "precision": 1,
+    "recall": 1,
+    "f1": 1,
+    "falsePositiveRate": 0,
+    "falseNegativeRate": 0
+  },
+  "categoryBreakdown": {
+    "img-alt": {
+      "TP": 90,
+      "TN": 75,
+      "FP": 0,
+      "FN": 0
+    },
+    "button-name": {
+      "TP": 50,
+      "TN": 85,
+      "FP": 0,
+      "FN": 0
+    },
+    "link-name": {
+      "TP": 40,
+      "TN": 55,
+      "FP": 0,
+      "FN": 0
+    },
+    "form-label": {
+      "TP": 45,
+      "TN": 35,
+      "FP": 0,
+      "FN": 0
+    },
+    "svg-name": {
+      "TP": 25,
+      "TN": 0,
+      "FP": 0,
+      "FN": 0
+    }
+  },
+  "falsePositiveFalseNegativeLog": []
+}

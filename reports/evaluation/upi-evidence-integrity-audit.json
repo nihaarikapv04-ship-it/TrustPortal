@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-08-20T13:23:32.414Z",
+  "status": "PASS",
+  "accessibilityMath": {
+    "N": 500,
+    "TP": 400,
+    "TN": 0,
+    "FP": 0,
+    "FN": 100,
+    "calcPrecision": 1,
+    "calcRecall": 0.8,
+    "calcF1": 0.888888888888889,
+    "calcCoverage": 0.8,
+    "calcAbstention": 0.2,
+    "isValid": true
+  },
+  "benchmarkStructure": {
+    "totalCases": 1500,
+    "structurallyUniqueCategories": 20,
+    "parameterizedVariants": 1480,
+    "generalizationClassification": "BENCHMARK_SCOPED"
+  },
+  "mutationAuthority": {
+    "aiTransactionCriticalMutationAuthority": 0,
+    "unsafeTransactionMutations": 0,
+    "isValid": true
+  },
+  "reproducibility": {
+    "runsExecuted": 3,
+    "runResults": [
+      1500,
+      1500,
+      1500
+    ],
+    "isDeterministic": true
+  }
+}

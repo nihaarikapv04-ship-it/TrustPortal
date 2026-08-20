@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-08-20T13:23:31.881Z",
+  "status": "PASS",
+  "allowedAttributes": [
+    "alt",
+    "aria-label",
+    "aria-labelledby",
+    "aria-describedby",
+    "role"
+  ],
+  "forbiddenAttributes": [
+    "href",
+    "src",
+    "action",
+    "formaction",
+    "style",
+    "onclick",
+    "onload",
+    "onerror",
+    "innerHTML",
+    "outerHTML",
+    "script",
+    "foreignObject"
+  ],
+  "allowedCheckPassed": true,
+  "forbiddenCheckBlocked": true
+}

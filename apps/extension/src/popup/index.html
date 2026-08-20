@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrustPortal TSIF</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="card" role="region" aria-labelledby="popup-title">
+    <header class="header">
+      <div class="logo">
+        <span class="shield-icon" aria-hidden="true">🛡️</span>
+        <h1 id="popup-title" class="title">TrustPortal</h1>
+      </div>
+      <span id="status-badge" class="badge badge-active">Active</span>
+    </header>
+
+    <div class="site-info">
+      <span class="label">Current Site:</span>
+      <span id="origin-text" class="origin">loading...</span>
+    </div>
+
+    <div class="stats-grid" role="group" aria-label="Site Statistics">
+      <div class="stat-box">
+        <span id="issues-count" class="stat-value">0</span>
+        <span class="stat-label">Issues</span>
+      </div>
+      <div class="stat-box">
+        <span id="proposals-count" class="stat-value">0</span>
+        <span class="stat-label">Pending</span>
+      </div>
+      <div class="stat-box">
+        <span id="repairs-count" class="stat-value">0</span>
+        <span class="stat-label">Repairs</span>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button id="toggle-btn" class="btn btn-toggle" type="button" aria-pressed="true">
+        Disable for this site
+      </button>
+      <button id="settings-btn" class="btn btn-secondary" type="button">
+        Settings Placeholder
+      </button>
+    </div>
+  </div>
+  <script type="module" src="main.ts"></script>
+</body>
+</html>

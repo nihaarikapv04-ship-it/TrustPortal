@@ -1,0 +1,20 @@
+{
+  "datasetType": "SYNTHETIC BENCHMARK EVALUATION",
+  "totalEvaluated": 250,
+  "qualityTiers": {
+    "exactMatchCount": 250,
+    "exactMatchRate": 1,
+    "semanticallyAcceptableCount": 250,
+    "semanticallyAcceptableRate": 1,
+    "inappropriateCount": 0,
+    "inappropriateRate": 0,
+    "unsafeProposalCount": 0,
+    "unsafeProposalRate": 0,
+    "safeAbstentionCount": 0,
+    "safeAbstentionRate": 0
+  },
+  "baselineComparison": {
+    "baselineB_FallbackQuality": 0.65,
+    "baselineD_PortalTransformerQuality": 1
+  }
+}

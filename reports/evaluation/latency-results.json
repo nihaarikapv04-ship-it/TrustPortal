@@ -1,0 +1,47 @@
+{
+  "providerType": "LOCAL / MOCK PROVIDER LATENCY",
+  "sampleSize": 100,
+  "warmUpRuns": 10,
+  "detectLatencyMs": {
+    "mean": 0.001,
+    "median": 0.001,
+    "stdDev": 0.001,
+    "p95": 0.002
+  },
+  "extractLatencyMs": {
+    "mean": 0.015,
+    "median": 0.004,
+    "stdDev": 0.085,
+    "p95": 0.015
+  },
+  "apiLatencyMs": {
+    "mean": 0,
+    "median": 0,
+    "stdDev": 0.001,
+    "p95": 0
+  },
+  "validateLatencyMs": {
+    "mean": 0.002,
+    "median": 0,
+    "stdDev": 0.009,
+    "p95": 0.003
+  },
+  "scoreLatencyMs": {
+    "mean": 0.004,
+    "median": 0.002,
+    "stdDev": 0.017,
+    "p95": 0.012
+  },
+  "patchLatencyMs": {
+    "mean": 0,
+    "median": 0,
+    "stdDev": 0.001,
+    "p95": 0.001
+  },
+  "totalRemediationLatencyMs": {
+    "mean": 0.022,
+    "median": 0.007,
+    "stdDev": 0.111,
+    "p95": 0.029
+  }
+}

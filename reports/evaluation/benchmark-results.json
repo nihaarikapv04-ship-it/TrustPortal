@@ -1,0 +1,115 @@
+{
+  "benchmarkVersion": "tsif-eval-v1.0.0",
+  "timestamp": "2026-08-19T02:01:32.258Z",
+  "environment": "Local Monorepo Test Harness (macOS Darwin)",
+  "sampleCount": 5,
+  "metrics": {
+    "totalCount": 5,
+    "exactMatchCount": 5,
+    "acceptableCount": 5,
+    "incorrectCount": 0,
+    "abstainCount": 0,
+    "exactMatchAccuracy": 1,
+    "acceptableAccuracy": 1,
+    "incorrectRate": 0,
+    "abstentionRate": 0,
+    "falseAcceptanceRate": 0,
+    "falseRejectionRate": 0,
+    "unsafeAutoApplyCount": 0,
+    "highImpactAutoApplyCount": 0,
+    "ece": 0.32199999999999995,
+    "brierScore": 0.14945999999999998,
+    "categoryMetrics": {},
+    "confusionMatrix": {
+      "matrix": {
+        "auto": {
+          "auto": 0,
+          "confirm": 0,
+          "abstain": 0
+        },
+        "confirm": {
+          "auto": 0,
+          "confirm": 3,
+          "abstain": 0
+        },
+        "abstain": {
+          "auto": 0,
+          "confirm": 0,
+          "abstain": 2
+        }
+      }
+    },
+    "reliabilityBins": [
+      {
+        "binMin": 0,
+        "binMax": 0.1,
+        "count": 0,
+        "avgConfidence": 0,
+        "empiricalAccuracy": 0
+      },
+      {
+        "binMin": 0.1,
+        "binMax": 0.2,
+        "count": 0,
+        "avgConfidence": 0,
+        "empiricalAccuracy": 0
+      },
+      {
+        "binMin": 0.2,
+        "binMax": 0.3,
+        "count": 1,
+        "avgConfidence": 0.26,
+        "empiricalAccuracy": 1
+      },
+      {
+        "binMin": 0.3,
+        "binMax": 0.4,
+        "count": 0,
+        "avgConfidence": 0,
+        "empiricalAccuracy": 0
+      },
+      {
+        "binMin": 0.4,
+        "binMax": 0.5,
+        "count": 0,
+        "avgConfidence": 0,
+        "empiricalAccuracy": 0
+      },
+      {
+        "binMin": 0.5,
+        "binMax": 0.6,
+        "count": 0,
+        "avgConfidence": 0,
+        "empiricalAccuracy": 0
+      },
+      {
+        "binMin": 0.6,
+        "binMax": 0.7,
+        "count": 0,
+        "avgConfidence": 0,
+        "empiricalAccuracy": 0
+      },
+      {
+        "binMin": 0.7,
+        "binMax": 0.8,
+        "count": 3,
+        "avgConfidence": 0.7566666666666667,
+        "empiricalAccuracy": 1
+      },
+      {
+        "binMin": 0.8,
+        "binMax": 0.9,
+        "count": 1,
+        "avgConfidence": 0.86,
+        "empiricalAccuracy": 1
+      },
+      {
+        "binMin": 0.9,
+        "binMax": 1,
+        "count": 0,
+        "avgConfidence": 0,
+        "empiricalAccuracy": 0
+      }
+    ]
+  }
+}

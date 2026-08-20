@@ -1,0 +1,6214 @@
+{
+  "sampleSize": 300,
+  "positiveDefects": 150,
+  "negativeControls": 150,
+  "confusionMatrix": {
+    "TP": 150,
+    "TN": 120,
+    "FP": 30,
+    "FN": 0
+  },
+  "metrics": {
+    "precision": 0.8333,
+    "recall": 1,
+    "f1": 0.9091,
+    "falsePositiveRate": 0.2,
+    "falseNegativeRate": 0
+  },
+  "perCategoryMetrics": {
+    "svg-role-img-unlabelled": {
+      "TP": 75,
+      "TN": 0,
+      "FP": 0,
+      "FN": 0
+    },
+    "svg-interactive-unlabelled": {
+      "TP": 75,
+      "TN": 0,
+      "FP": 0,
+      "FN": 0
+    },
+    "svg-inside-labelled-button": {
+      "TP": 0,
+      "TN": 30,
+      "FP": 0,
+      "FN": 0
+    },
+    "svg-inside-labelled-link": {
+      "TP": 0,
+      "TN": 30,
+      "FP": 0,
+      "FN": 0
+    },
+    "svg-aria-hidden": {
+      "TP": 0,
+      "TN": 30,
+      "FP": 0,
+      "FN": 0
+    },
+    "svg-role-presentation": {
+      "TP": 0,
+      "TN": 30,
+      "FP": 0,
+      "FN": 0
+    },
+    "svg-with-child-title": {
+      "TP": 0,
+      "TN": 0,
+      "FP": 30,
+      "FN": 0
+    }
+  },
+  "cases": [
+    {
+      "case_id": "SVG-DEF-IMG-1",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_1",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-2",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_2",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-3",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_3",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-4",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_4",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-5",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_5",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-6",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_6",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-7",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_7",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-8",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_8",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-9",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_9",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-10",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_10",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-11",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_11",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-12",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_12",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-13",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_13",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-14",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_14",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-15",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_15",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-16",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_16",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-17",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_17",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-18",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_18",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-19",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_19",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-20",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_20",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-21",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_21",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-22",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_22",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-23",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_23",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-24",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_24",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-25",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_25",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-26",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_26",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-27",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_27",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-28",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_28",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-29",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_29",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-30",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_30",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-31",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_31",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-32",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_32",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-33",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_33",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-34",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_34",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-35",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_35",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-36",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_36",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-37",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_37",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-38",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_38",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-39",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_39",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-40",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_40",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-41",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_41",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-42",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_42",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-43",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_43",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-44",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_44",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-45",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_45",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-46",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_46",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-47",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_47",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-48",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_48",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-49",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_49",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-50",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_50",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-51",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_51",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-52",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_52",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-53",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_53",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-54",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_54",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-55",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_55",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-56",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_56",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-57",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_57",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-58",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_58",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-59",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_59",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-60",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_60",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-61",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_61",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-62",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_62",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-63",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_63",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-64",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_64",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-65",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_65",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-66",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_66",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-67",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_67",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-68",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_68",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-69",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_69",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-70",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_70",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-71",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_71",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-72",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_72",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-73",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_73",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-74",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_74",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-IMG-75",
+      "category": "svg-role-img-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_img_def_75",
+        "role": "img",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG role='img' without title, desc, or aria-label"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-1",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_1",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-2",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_2",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-3",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_3",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-4",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_4",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-5",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_5",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-6",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_6",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-7",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_7",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-8",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_8",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-9",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_9",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-10",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_10",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-11",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_11",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-12",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_12",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-13",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_13",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-14",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_14",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-15",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_15",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-16",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_16",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-17",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_17",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-18",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_18",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-19",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_19",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-20",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_20",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-21",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_21",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-22",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_22",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-23",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_23",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-24",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_24",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-25",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_25",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-26",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_26",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-27",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_27",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-28",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_28",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-29",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_29",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-30",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_30",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-31",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_31",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-32",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_32",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-33",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_33",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-34",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_34",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-35",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_35",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-36",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_36",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-37",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_37",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-38",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_38",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-39",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_39",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-40",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_40",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-41",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_41",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-42",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_42",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-43",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_43",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-44",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_44",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-45",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_45",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-46",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_46",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-47",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_47",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-48",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_48",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-49",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_49",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-50",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_50",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-51",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_51",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-52",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_52",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-53",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_53",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-54",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_54",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-55",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_55",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-56",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_56",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-57",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_57",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-58",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_58",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-59",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_59",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-60",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_60",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-61",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_61",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-62",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_62",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-63",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_63",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-64",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_64",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-65",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_65",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-66",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_66",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-67",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_67",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-68",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_68",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-69",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_69",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-70",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_70",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-71",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_71",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-72",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_72",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-73",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_73",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-74",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_74",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-DEF-BTN-75",
+      "category": "svg-interactive-unlabelled",
+      "superCategory": "svg",
+      "isDefect": true,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_btn_def_75",
+        "role": "button",
+        "attributes": {
+          "tabindex": "0"
+        }
+      },
+      "expected": "",
+      "detected": true,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG interactive button without title or accessible name"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-1",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_1",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-2",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_2",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-3",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_3",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-4",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_4",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-5",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_5",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-6",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_6",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-7",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_7",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-8",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_8",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-9",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_9",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-10",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_10",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-11",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_11",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-12",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_12",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-13",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_13",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-14",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_14",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-15",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_15",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-16",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_16",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-17",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_17",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-18",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_18",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-19",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_19",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-20",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_20",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-21",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_21",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-22",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_22",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-23",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_23",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-24",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_24",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-25",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_25",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-26",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_26",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-27",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_27",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-28",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_28",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-29",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_29",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-BTN-LABEL-30",
+      "category": "svg-inside-labelled-button",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_btn_30",
+        "attributes": {},
+        "parentRole": "button",
+        "parentAccessibleName": "Download PDF Report"
+      },
+      "expected": "Download PDF Report",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent button that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-1",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_1",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-2",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_2",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-3",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_3",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-4",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_4",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-5",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_5",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-6",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_6",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-7",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_7",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-8",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_8",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-9",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_9",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-10",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_10",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-11",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_11",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-12",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_12",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-13",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_13",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-14",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_14",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-15",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_15",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-16",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_16",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-17",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_17",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-18",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_18",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-19",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_19",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-20",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_20",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-21",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_21",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-22",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_22",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-23",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_23",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-24",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_24",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-25",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_25",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-26",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_26",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-27",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_27",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-28",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_28",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-29",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_29",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-LINK-LABEL-30",
+      "category": "svg-inside-labelled-link",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_in_lnk_30",
+        "attributes": {},
+        "parentRole": "link",
+        "parentAccessibleName": "Open User Settings"
+      },
+      "expected": "Open User Settings",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG icon inside parent link that already has aria-label"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-1",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_1",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-2",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_2",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-3",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_3",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-4",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_4",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-5",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_5",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-6",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_6",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-7",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_7",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-8",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_8",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-9",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_9",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-10",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_10",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-11",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_11",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-12",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_12",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-13",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_13",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-14",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_14",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-15",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_15",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-16",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_16",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-17",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_17",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-18",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_18",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-19",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_19",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-20",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_20",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-21",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_21",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-22",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_22",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-23",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_23",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-24",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_24",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-25",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_25",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-26",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_26",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-27",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_27",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-28",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_28",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-29",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_29",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-HIDDEN-30",
+      "category": "svg-aria-hidden",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_hid_30",
+        "attributes": {
+          "aria-hidden": "true"
+        }
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG explicitly hidden with aria-hidden='true'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-1",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_1",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-2",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_2",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-3",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_3",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-4",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_4",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-5",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_5",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-6",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_6",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-7",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_7",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-8",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_8",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-9",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_9",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-10",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_10",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-11",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_11",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-12",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_12",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-13",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_13",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-14",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_14",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-15",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_15",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-16",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_16",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-17",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_17",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-18",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_18",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-19",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_19",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-20",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_20",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-21",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_21",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-22",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_22",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-23",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_23",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-24",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_24",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-25",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_25",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-26",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_26",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-27",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_27",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-28",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_28",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-29",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_29",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-PRESENTATION-30",
+      "category": "svg-role-presentation",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_pres_30",
+        "role": "presentation",
+        "attributes": {}
+      },
+      "expected": "",
+      "detected": false,
+      "prediction": "",
+      "false_positive": false,
+      "false_negative": false,
+      "reason": "SVG marked with role='presentation'"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-1",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_1",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 1"
+          }
+        ]
+      },
+      "expected": "Official Chart 1",
+      "detected": true,
+      "prediction": "Official Chart 1",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-2",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_2",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 2"
+          }
+        ]
+      },
+      "expected": "Official Chart 2",
+      "detected": true,
+      "prediction": "Official Chart 2",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-3",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_3",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 3"
+          }
+        ]
+      },
+      "expected": "Official Chart 3",
+      "detected": true,
+      "prediction": "Official Chart 3",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-4",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_4",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 4"
+          }
+        ]
+      },
+      "expected": "Official Chart 4",
+      "detected": true,
+      "prediction": "Official Chart 4",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-5",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_5",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 5"
+          }
+        ]
+      },
+      "expected": "Official Chart 5",
+      "detected": true,
+      "prediction": "Official Chart 5",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-6",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_6",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 6"
+          }
+        ]
+      },
+      "expected": "Official Chart 6",
+      "detected": true,
+      "prediction": "Official Chart 6",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-7",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_7",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 7"
+          }
+        ]
+      },
+      "expected": "Official Chart 7",
+      "detected": true,
+      "prediction": "Official Chart 7",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-8",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_8",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 8"
+          }
+        ]
+      },
+      "expected": "Official Chart 8",
+      "detected": true,
+      "prediction": "Official Chart 8",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-9",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_9",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 9"
+          }
+        ]
+      },
+      "expected": "Official Chart 9",
+      "detected": true,
+      "prediction": "Official Chart 9",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-10",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_10",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 10"
+          }
+        ]
+      },
+      "expected": "Official Chart 10",
+      "detected": true,
+      "prediction": "Official Chart 10",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-11",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_11",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 11"
+          }
+        ]
+      },
+      "expected": "Official Chart 11",
+      "detected": true,
+      "prediction": "Official Chart 11",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-12",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_12",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 12"
+          }
+        ]
+      },
+      "expected": "Official Chart 12",
+      "detected": true,
+      "prediction": "Official Chart 12",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-13",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_13",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 13"
+          }
+        ]
+      },
+      "expected": "Official Chart 13",
+      "detected": true,
+      "prediction": "Official Chart 13",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-14",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_14",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 14"
+          }
+        ]
+      },
+      "expected": "Official Chart 14",
+      "detected": true,
+      "prediction": "Official Chart 14",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-15",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_15",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 15"
+          }
+        ]
+      },
+      "expected": "Official Chart 15",
+      "detected": true,
+      "prediction": "Official Chart 15",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-16",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_16",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 16"
+          }
+        ]
+      },
+      "expected": "Official Chart 16",
+      "detected": true,
+      "prediction": "Official Chart 16",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-17",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_17",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 17"
+          }
+        ]
+      },
+      "expected": "Official Chart 17",
+      "detected": true,
+      "prediction": "Official Chart 17",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-18",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_18",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 18"
+          }
+        ]
+      },
+      "expected": "Official Chart 18",
+      "detected": true,
+      "prediction": "Official Chart 18",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-19",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_19",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 19"
+          }
+        ]
+      },
+      "expected": "Official Chart 19",
+      "detected": true,
+      "prediction": "Official Chart 19",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-20",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_20",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 20"
+          }
+        ]
+      },
+      "expected": "Official Chart 20",
+      "detected": true,
+      "prediction": "Official Chart 20",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-21",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_21",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 21"
+          }
+        ]
+      },
+      "expected": "Official Chart 21",
+      "detected": true,
+      "prediction": "Official Chart 21",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-22",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_22",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 22"
+          }
+        ]
+      },
+      "expected": "Official Chart 22",
+      "detected": true,
+      "prediction": "Official Chart 22",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-23",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_23",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 23"
+          }
+        ]
+      },
+      "expected": "Official Chart 23",
+      "detected": true,
+      "prediction": "Official Chart 23",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-24",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_24",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 24"
+          }
+        ]
+      },
+      "expected": "Official Chart 24",
+      "detected": true,
+      "prediction": "Official Chart 24",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-25",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_25",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 25"
+          }
+        ]
+      },
+      "expected": "Official Chart 25",
+      "detected": true,
+      "prediction": "Official Chart 25",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-26",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_26",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 26"
+          }
+        ]
+      },
+      "expected": "Official Chart 26",
+      "detected": true,
+      "prediction": "Official Chart 26",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-27",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_27",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 27"
+          }
+        ]
+      },
+      "expected": "Official Chart 27",
+      "detected": true,
+      "prediction": "Official Chart 27",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-28",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_28",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 28"
+          }
+        ]
+      },
+      "expected": "Official Chart 28",
+      "detected": true,
+      "prediction": "Official Chart 28",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-29",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_29",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 29"
+          }
+        ]
+      },
+      "expected": "Official Chart 29",
+      "detected": true,
+      "prediction": "Official Chart 29",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    },
+    {
+      "case_id": "SVG-OK-TITLE-30",
+      "category": "svg-with-child-title",
+      "superCategory": "svg",
+      "isDefect": false,
+      "issueType": "svg-name",
+      "element": {
+        "tag": "svg",
+        "id": "svg_title_30",
+        "role": "img",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "title",
+            "attributes": {},
+            "textContent": "Official Chart 30"
+          }
+        ]
+      },
+      "expected": "Official Chart 30",
+      "detected": true,
+      "prediction": "Official Chart 30",
+      "false_positive": true,
+      "false_negative": false,
+      "reason": "SVG with child <title> element providing accessible name"
+    }
+  ]
+}

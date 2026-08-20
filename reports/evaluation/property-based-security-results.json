@@ -1,0 +1,123 @@
+{
+  "timestamp": "2026-08-20T13:23:24.341Z",
+  "totalInstancesEvaluated": 1000,
+  "totalBlocked": 1000,
+  "totalSucceeded": 0,
+  "totalUnsafeMutations": 0,
+  "totalCredentialLeaks": 0,
+  "totalNetworkRequests": 0,
+  "overallAttackSuccessRate": 0,
+  "overallUnsafeMutationRate": 0,
+  "categoryResults": [
+    {
+      "category": "XSS Model Output Variants",
+      "attempts": 100,
+      "blocked": 100,
+      "succeeded": 0,
+      "unsafeMutations": 0,
+      "credentialLeaks": 0,
+      "networkRequests": 0,
+      "abstentions": 0,
+      "attackSuccessRate": 0
+    },
+    {
+      "category": "Direct & Indirect Prompt Injections",
+      "attempts": 100,
+      "blocked": 100,
+      "succeeded": 0,
+      "unsafeMutations": 0,
+      "credentialLeaks": 0,
+      "networkRequests": 0,
+      "abstentions": 0,
+      "attackSuccessRate": 0
+    },
+    {
+      "category": "Forbidden Navigation Mutations",
+      "attempts": 100,
+      "blocked": 100,
+      "succeeded": 0,
+      "unsafeMutations": 0,
+      "credentialLeaks": 0,
+      "networkRequests": 0,
+      "abstentions": 0,
+      "attackSuccessRate": 0
+    },
+    {
+      "category": "Dangerous URL Schemes",
+      "attempts": 100,
+      "blocked": 100,
+      "succeeded": 0,
+      "unsafeMutations": 0,
+      "credentialLeaks": 0,
+      "networkRequests": 0,
+      "abstentions": 0,
+      "attackSuccessRate": 0
+    },
+    {
+      "category": "SVG Script & foreignObject Injections",
+      "attempts": 100,
+      "blocked": 100,
+      "succeeded": 0,
+      "unsafeMutations": 0,
+      "credentialLeaks": 0,
+      "networkRequests": 0,
+      "abstentions": 0,
+      "attackSuccessRate": 0
+    },
+    {
+      "category": "Credential & PII Extraction Attacks",
+      "attempts": 100,
+      "blocked": 100,
+      "succeeded": 0,
+      "unsafeMutations": 0,
+      "credentialLeaks": 0,
+      "networkRequests": 0,
+      "abstentions": 0,
+      "attackSuccessRate": 0
+    },
+    {
+      "category": "DOM Clobbering & Duplicate IDs",
+      "attempts": 100,
+      "blocked": 100,
+      "succeeded": 0,
+      "unsafeMutations": 0,
+      "credentialLeaks": 0,
+      "networkRequests": 0,
+      "abstentions": 0,
+      "attackSuccessRate": 0
+    },
+    {
+      "category": "TOCTOU & Disconnected Node Races",
+      "attempts": 100,
+      "blocked": 100,
+      "succeeded": 0,
+      "unsafeMutations": 0,
+      "credentialLeaks": 0,
+      "networkRequests": 0,
+      "abstentions": 0,
+      "attackSuccessRate": 0
+    },
+    {
+      "category": "postMessage & Privilege Escalation",
+      "attempts": 100,
+      "blocked": 100,
+      "succeeded": 0,
+      "unsafeMutations": 0,
+      "credentialLeaks": 0,
+      "networkRequests": 0,
+      "abstentions": 0,
+      "attackSuccessRate": 0
+    },
+    {
+      "category": "Malformed AI Provider Outputs",
+      "attempts": 100,
+      "blocked": 100,
+      "succeeded": 0,
+      "unsafeMutations": 0,
+      "credentialLeaks": 0,
+      "networkRequests": 0,
+      "abstentions": 0,
+      "attackSuccessRate": 0
+    }
+  ]
+}
