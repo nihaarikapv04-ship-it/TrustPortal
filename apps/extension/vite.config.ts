@@ -19,8 +19,8 @@ export default defineConfig({
           if (chunkInfo.name === "popup") return "popup/index.js";
           return "[name].js";
         },
-        chunkFileNames: "assets/[name].js",
-        assetFileNames: "assets/[name].[ext]"
+        // Force all shared imports to inline directly into entry points (No shared chunk import statements)
+        manualChunks: () => "bundle"
       }
     }
   }

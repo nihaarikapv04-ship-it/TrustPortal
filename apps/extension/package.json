@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite build --watch",
-    "build": "vite build && node -e \"import('node:fs').then(fs => { fs.copyFileSync('manifest.json', 'dist/manifest.json'); fs.mkdirSync('content', { recursive: true }); fs.mkdirSync('worker', { recursive: true }); fs.copyFileSync('dist/content/index.js', 'content/index.js'); fs.copyFileSync('dist/worker/index.js', 'worker/index.js'); })\"",
+    "build": "vite build && esbuild src/content/index.ts --bundle --outfile=dist/content/index.js --target=es2022 --format=iife && esbuild src/worker/index.ts --bundle --outfile=dist/worker/index.js --target=es2022 --format=esm && node -e \"import('node:fs').then(fs => { fs.copyFileSync('manifest.json', 'dist/manifest.json'); fs.mkdirSync('content', { recursive: true }); fs.mkdirSync('worker', { recursive: true }); fs.copyFileSync('dist/content/index.js', 'content/index.js'); fs.copyFileSync('dist/worker/index.js', 'worker/index.js'); })\"",
     "test": "vitest run tests/*.test.ts"
   },
   "dependencies": {
@@ -14,6 +14,7 @@
   "devDependencies": {
     "@types/chrome": "^0.0.260",
     "@types/node": "^20.11.0",
+    "esbuild": "^0.20.0",
     "jsdom": "^24.0.0",
     "typescript": "^5.3.3",
     "vite": "^5.1.0",
