@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite build --watch",
-    "build": "vite build && node -e \"import('node:fs').then(fs => fs.copyFileSync('manifest.json', 'dist/manifest.json'))\"",
+    "build": "vite build && node -e \"import('node:fs').then(fs => { fs.copyFileSync('manifest.json', 'dist/manifest.json'); fs.mkdirSync('content', { recursive: true }); fs.mkdirSync('worker', { recursive: true }); fs.copyFileSync('dist/content/index.js', 'content/index.js'); fs.copyFileSync('dist/worker/index.js', 'worker/index.js'); })\"",
     "test": "vitest run tests/*.test.ts"
   },
   "dependencies": {

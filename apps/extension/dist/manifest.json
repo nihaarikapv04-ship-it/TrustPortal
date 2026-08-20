@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "TrustPortal — TSIF Accessibility Gate",
+  "short_name": "TrustPortal",
+  "version": "1.0.0",
+  "description": "Statistically calibrated, injection-resistant runtime accessibility repair framework.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "worker/index.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content/index.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "src/popup/index.html",
+    "default_title": "TrustPortal TSIF"
+  }
+}
